@@ -16,11 +16,10 @@
   background-color: rgba(0, 0, 0, 0.85);
   transition: 0.3s;
 }
-.logo{
-   margin: 25px;   
-   max-width: 120px;
-   max-height: 120px;
-    
+.logo {
+  margin: 25px;
+  max-width: 120px;
+  max-height: 120px;
 }
 .nav-menu {
   display: flex;
@@ -65,7 +64,7 @@ ul {
   display: none;
 }
 
-@media only screen and (min-device-width: 280px) and (max-device-width: 767px){
+@media only screen and (max-device-width: 767px) {
   .nav-menu {
     flex-direction: column;
     justify-content: center;
@@ -103,10 +102,9 @@ ul {
   .title {
     margin-left: 10px;
   }
-  .logo{
+  .logo {
     margin: 0;
-     
- }
+  }
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
@@ -147,7 +145,7 @@ ul {
   .title {
     margin-left: 10px;
   }
-  .logo{
+  .logo {
     margin: 5px;
   }
 }

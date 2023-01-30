@@ -25,6 +25,7 @@ function Navbar() {
         <li>About</li>
         <li>Team</li>
         <li>Events</li>
+        <li>Gallery</li>
         <li>Contact Us</li>
         <li>Join us</li>
       </ul>
