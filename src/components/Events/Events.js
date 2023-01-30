@@ -1,15 +1,15 @@
 import "./Events.css";
 import EventCard from "./EventCard";
-import { EventsData } from "../../Assets/Data/EventsData";
+import ed from "../../Assets/Data/EventData.json";
 import { useState } from "react";
 import { Grid } from "@mui/material";
 import ReactLoading from "react-loading";
 
 function Events() {
-  const [event, setEvent] = useState(EventsData);
+  const [event, setEvent] = useState(ed);
   const [isLoading, setisLoading] = useState(false);
   const filterItem = (categItem) => {
-    const updatedItems = EventsData.filter((eve) => {
+    const updatedItems = ed.filter((eve) => {
       return eve.status === categItem;
     });
     setEvent(updatedItems);
@@ -18,7 +18,7 @@ function Events() {
   return (
     <div className="Events">
       <div className="events-h">
-      <h3 class="animate-charcter">Our Events</h3>
+        <h3 class="animate-charcter">Our Events</h3>
       </div>
 
       <div className="but">
@@ -36,7 +36,6 @@ function Events() {
         justifyContent="center"
         rowGap={8}
         marginTop="28px"
-       
       >
         {event.map((e) => (
           <Grid item xs={12} sm={7} md={5} lg={4} key={e.id}>
@@ -53,7 +52,6 @@ function Events() {
           </Grid>
         ))}
       </Grid>
-     
     </div>
   );
 }
