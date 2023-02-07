@@ -1,0 +1,68 @@
+.team {
+  padding-top: 140px;
+}
+
+.team-h {
+  font-size: 4.5rem;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.team-q {
+  text-align: center;
+  width: 70%;
+  margin: auto;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  margin-top: 2rem;
+
+}
+
+.team-p {
+
+  text-align: left;
+  width: 70%;
+  margin: auto;
+  margin-bottom: 2.75rem;
+  margin-top: 4rem;
+  font-size: 3rem;
+  line-height: 1;
+  font-weight: 600;
+}
+
+.bod {
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  padding-top: 2.2rem;
+  padding-bottom: 3.5rem;
+  column-gap: 100px;
+  justify-content: center;
+}
+
+@media  (max-width: 450px) {
+
+  .team-h{
+    font-size: 3.5rem;
+  }
+
+  
+  
+}
+
+@media  (max-width: 600px){
+.team-h{
+  font-size: 3.75rem;
+}
+
+.team-p{
+  padding-left: 0;
+  text-align: center;
+
+}
+.bod{
+  padding-top:0;
+  padding-bottom: 3.5rem;
+}
+
+}
