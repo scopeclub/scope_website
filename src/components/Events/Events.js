@@ -3,11 +3,10 @@ import EventCard from "./EventCard";
 import ed from "../../Assets/Data/EventData.json";
 import { useState } from "react";
 import { Grid } from "@mui/material";
-import ReactLoading from "react-loading";
+
 
 function Events() {
   const [event, setEvent] = useState(ed);
-  const [isLoading, setisLoading] = useState(false);
   const filterItem = (categItem) => {
     const updatedItems = ed.filter((eve) => {
       return eve.status === categItem;
@@ -17,15 +16,17 @@ function Events() {
 
   return (
     <div className="Events">
-      <h3 class="events-h">Our Events</h3>
+      <div className="events-h">
+        <h3 class="animate-charcter">Our Events</h3>
+      </div>
 
       <div className="but">
-        <a onClick={() => filterItem("0")} class="btn41-44 btn-41">
+        <p onClick={() => filterItem("0")} class="btn41-44 btn-41">
           Past Events
         </a>
-        <a onClick={() => filterItem("1")} class="btn41-45 btn-41">
+        <a onClick={() => filterItem("1")} class="btn41-43 btn-41">
           Upcoming Events
-        </a>
+        </p>
       </div>
 
       <Grid
