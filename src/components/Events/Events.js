@@ -21,12 +21,12 @@ function Events() {
       </div>
 
       <div className="but">
-        <p onClick={() => filterItem("0")} class="btn41-44 btn-41">
+        <a onClick={() => filterItem("0")} class="btn41-44 btn-41">
           Past Events
         </a>
-        <a onClick={() => filterItem("1")} class="btn41-43 btn-41">
+        <a onClick={() => filterItem("1")} class="btn41-45 btn-41">
           Upcoming Events
-        </p>
+        </a>
       </div>
 
       <Grid

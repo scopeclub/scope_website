@@ -21,23 +21,22 @@
 .team-p {
 
   text-align: left;
-  width: 70%;
+  width: 75%;
   margin: auto;
-  margin-bottom: 2.75rem;
-  margin-top: 4rem;
+  margin-bottom: 3.5rem;
+  margin-top: 5rem;
   font-size: 3rem;
   line-height: 1;
   font-weight: 600;
 }
 
 .bod {
-  display: flex;
-  overflow-x: scroll;
-  overflow-y: hidden;
-  padding-top: 2.2rem;
-  padding-bottom: 3.5rem;
-  column-gap: 100px;
-  justify-content: center;
+  
+     display: flex;
+     overflow-x: scroll;
+     overflow-y: hidden;
+     column-gap: 60px;
+     margin-left: 60px;
 }
 
 @media  (max-width: 450px) {

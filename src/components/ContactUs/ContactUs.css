@@ -34,8 +34,9 @@
     font-size: 3rem;
   }
   .c-para {
+    font-size: 1rem;
     word-spacing: 3px;
-    width: 75%;
+    width: 65%;
   }
 }
 
@@ -43,9 +44,11 @@
 *:focus {
   outline: none;
 }
-.container {
-  padding-top: 110px;
+.container{
+  display: inline-block;
+  margin: auto;
 }
+
 .container .text {
   text-align: center;
   font-size: 35px;
@@ -64,6 +67,8 @@
   display: flex;
   flex-direction: column;
   padding: 10px 0 0 0;
+  
+  
 }
 .container form .form-row {
   margin: 32px 10px;
