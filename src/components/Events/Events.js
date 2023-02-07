@@ -17,15 +17,13 @@ function Events() {
 
   return (
     <div className="Events">
-      <div className="events-h">
-        <h3 class="animate-charcter">Our Events</h3>
-      </div>
+      <h3 class="events-h">Our Events</h3>
 
       <div className="but">
         <a onClick={() => filterItem("0")} class="btn41-44 btn-41">
           Past Events
         </a>
-        <a onClick={() => filterItem("1")} class="btn41-43 btn-41">
+        <a onClick={() => filterItem("1")} class="btn41-45 btn-41">
           Upcoming Events
         </a>
       </div>
@@ -35,7 +33,7 @@ function Events() {
         spacing={1}
         justifyContent="center"
         rowGap={8}
-        marginTop="28px"
+        marginTop="30px"
       >
         {event.map((e) => (
           <Grid item xs={12} sm={7} md={5} lg={4} key={e.id}>

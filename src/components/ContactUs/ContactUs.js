@@ -11,8 +11,8 @@ function ContactUs() {
         Just fill this simple form in and we will contact you promptly. Hate
         forms? Drop us a line at{" "}
         <span>
-          <a className="c-mail" href="mailto:scopeclub@gmail.com">
-            scopeclub@gmail.com
+          <a className="c-mail" href="mailto:scopeclub@mlrinstitutions.ac.in">
+            scopeclub@mlrinstitutions.ac.in
           </a>
         </span>
       </p>
@@ -39,14 +39,11 @@ function ContactUs() {
               <div class="underline"></div>
               <label for="">Write your message</label>
               <br />
-
-             
             </div>
-            
           </div>
           <a href="/contact" class="btn41-43 btn-43">
-                Submit
-              </a>
+            Submit
+          </a>
         </form>
       </div>
     </div>

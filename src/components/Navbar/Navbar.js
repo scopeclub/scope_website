@@ -22,13 +22,14 @@ function Navbar() {
     <div className={color ? "header header-bg" : "header"}>
       <img src={logo} alt='logo' className="logo" />
       <ul className={click ? "nav-menu active" : "nav-menu"}>
-        <li>About</li>
+        <li>Home</li>
         <li>Team</li>
         <li>Events</li>
         <li>Gallery</li>
         <li>Contact Us</li>
-        <li>Join us</li>
+        <button className="button-64"><span className="text">Join Us</span></button>
       </ul>
+      
       <div className="hamburger" onClick={handleClick}>
         {click ? (
           <FaTimes size={23} style={{ color: "#fff" }} />

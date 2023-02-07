@@ -4,7 +4,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem;
+  padding: 1.5rem;
   color: #fff;
   position: fixed;
   width: 100%;
@@ -34,7 +34,7 @@
 }
 
 .nav-menu li {
-  padding: 0 1rem;
+  padding: 2rem 1rem;
   font-size: 1.2rem;
   font-weight: 500;
   text-decoration: none;
@@ -46,7 +46,7 @@
   content: "";
   position: absolute;
   left: 0;
-  top: 120%;
+  top: 80%;
   width: 0;
   height: 3px;
   background-color: #fff;
@@ -105,6 +105,12 @@ ul {
   .logo {
     margin: 0;
   }
+  .button-64{
+    min-width: 30%;
+    
+  }
+
+ 
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
@@ -149,3 +155,51 @@ ul {
     margin: 5px;
   }
 }
+
+/* button */
+.button-64 {
+  align-items: center;
+  background-image: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #ffffff;
+  display: flex;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  width: 18%;
+  height: 45px;
+  padding: 3px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+  margin-top: 20px;
+  
+}
+
+.button-64:active,
+.button-64:hover {
+  outline: 0;
+}
+
+.button-64 span {
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 10px 16px;
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+  transition: 300ms;
+  font-size: 22px;
+}
+
+.button-64:hover span {
+  background: none;
+}
+
+

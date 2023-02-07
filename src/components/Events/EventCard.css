@@ -1,7 +1,7 @@
 .EventCard {
   margin: auto;
-  width: 340px;
-  height: 460px;
+  width: 320px;
+  height: 445px;
   border-radius: 3px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
   overflow: hidden;
@@ -167,12 +167,7 @@
     transform: translateY(-300px);
   }
 
-  @media only screen and (min-device-width: 601px) and (max-device-width: 1024px){
-    .EventCard{
-      
-    }
 
-  }
 
 
 }
