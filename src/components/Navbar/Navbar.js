@@ -3,8 +3,8 @@ import "./Navbar.css";
 import { FaTimes } from "react-icons/fa";
 import { CgMenuRight } from "react-icons/cg";
 import { useState } from "react";
-import logo from '../../Assets/logo.png';
-
+import logo from "../../Assets/logo.png";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -20,16 +20,38 @@ function Navbar() {
   window.addEventListener("scroll", changeColor);
   return (
     <div className={color ? "header header-bg" : "header"}>
-      <img src={logo} alt='logo' className="logo" />
+      <img src={logo} alt="logo" className="logo" />
       <ul className={click ? "nav-menu active" : "nav-menu"}>
-        <li>Home</li>
-        <li>Team</li>
-        <li>Events</li>
-        <li>Gallery</li>
-        <li>Contact Us</li>
-        <button className="button-64"><span className="text">Join Us</span></button>
+        <li>
+          <Link style={{ textDecoration: "none" }} to="/">
+            Home
+          </Link>
+        </li>
+        <li>
+          <Link style={{ textDecoration: "none" }} to="/team">
+            Team
+          </Link>
+        </li>
+        <li>
+          <Link style={{ textDecoration: "none" }} to="/events">
+            Events
+          </Link>
+        </li>
+        <li>
+          <Link style={{ textDecoration: "none" }} to="/gallery">
+            Gallery
+          </Link>
+        </li>
+        <li>
+          <Link style={{ textDecoration: "none" }} to="/contact">
+            Contact Us
+          </Link>
+        </li>
+        <button className="button-64">
+          <span className="text">Join Us</span>
+        </button>
       </ul>
-      
+
       <div className="hamburger" onClick={handleClick}>
         {click ? (
           <FaTimes size={23} style={{ color: "#fff" }} />
