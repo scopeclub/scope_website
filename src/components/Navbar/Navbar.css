@@ -105,12 +105,9 @@ ul {
   .logo {
     margin: 0;
   }
-  .button-64{
+  .button-64 {
     min-width: 30%;
-    
   }
-
- 
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
@@ -179,7 +176,6 @@ ul {
   white-space: nowrap;
   cursor: pointer;
   margin-top: 20px;
-  
 }
 
 .button-64:active,
@@ -188,7 +184,7 @@ ul {
 }
 
 .button-64 span {
-  background-color: rgb(0, 0, 0);
+  background-color: #0c0c0f;
   text-align: center;
   padding: 10px 16px;
   border-radius: 6px;
@@ -201,5 +197,3 @@ ul {
 .button-64:hover span {
   background: none;
 }
-
-

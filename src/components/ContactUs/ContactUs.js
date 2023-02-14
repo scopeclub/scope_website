@@ -1,8 +1,18 @@
 import "./ContactUs.css";
+import { motion } from "framer-motion";
 
 function ContactUs() {
   return (
-    <div className="contact">
+    <motion.div
+      className="contact"
+      initial={{ y: 1, scale: 1, opacity: 0 }}
+      animate={{
+        y: "20px",
+        opacity: 1,
+      }}
+      transition={{ duration: 0.5 }}
+      
+    >
       <h1 className="c-head">
         Interested? <br />
         Let's Talk!
@@ -46,7 +56,7 @@ function ContactUs() {
           </a>
         </form>
       </div>
-    </div>
+    </motion.div>
   );
 }
 

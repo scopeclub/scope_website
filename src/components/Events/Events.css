@@ -1,9 +1,9 @@
 .Events {
   padding-top: 65px;
 }
-.events-h {
+.events-h >h3 {
   margin-top: 30px;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 3.5rem;
   line-height: 1;
   text-align: center;

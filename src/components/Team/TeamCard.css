@@ -1,10 +1,10 @@
 .profile-card {
   width: 270px;
   height: 260px;
-  background: #fff;
+  background: #e1e1e5;
   padding: 35px;
   margin-top: 24px;
-  margin-bottom: 30px;
+  margin-bottom: 70px;
   border-radius: 50%;
   box-shadow: 0 0 22px #3336;
   transition: 0.6s;

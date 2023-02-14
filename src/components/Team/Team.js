@@ -1,10 +1,20 @@
 import "./Team.css";
 import { bod } from "../../Assets/Data/TeamData";
 import TeamCard from "./TeamCard";
+import { motion } from "framer-motion";
 
 function Team() {
   return (
-    <div className="team">
+    <motion.div
+      className="team"
+      initial={{ y: 1, scale: 1, opacity: 0 }}
+      animate={{
+        y: "20px",
+        opacity: 1,
+      }}
+      transition={{ duration: 0.5 }}
+     
+    >
       <div className="head">
         <h1 className="team-h">Meet the Team!</h1>
         <h3 className="team-q">
@@ -70,7 +80,7 @@ function Team() {
           ))}
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }
 
