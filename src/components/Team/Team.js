@@ -9,7 +9,7 @@ function Team() {
       className="team"
       initial={{ y: 1, scale: 1, opacity: 0 }}
       animate={{
-        y: "20px",
+        y: "25px",
         opacity: 1,
       }}
       transition={{ duration: 0.5 }}

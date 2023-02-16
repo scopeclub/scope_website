@@ -1,7 +1,8 @@
 .container {
   max-width: 95%;
   margin: 0 auto;
-  padding-top: 120px;
+  padding-top: 100px;
+  padding-bottom: 90px;
 }
 
 .container .titlee {
@@ -17,11 +18,11 @@
 
 .container .image-container {
   columns: 3 250px;
-  gap: 15px;
+  gap: 18px;
 }
 
 .container .image-container img {
-  margin-bottom: 10px;
+  margin-bottom: 18px;
   border-radius: 5px;
   width: 100%;
 }
@@ -38,7 +39,7 @@
 .wg-box-content .wg-box-content-overlay {
   background: rgba(0, 0, 0, 0.7);
   position: absolute;
-  height: 99%;
+  height: 100%;
   width: 100%;
   left: 0;
   top: 0;
@@ -50,19 +51,22 @@
   transition: all 0.4s ease-in-out 0s;
 }
 
-
-
 .wg-box-content:hover .wg-box-content-image {
+  max-height: 100%;
+  max-width: 100%;
   opacity: 0.3;
-  -webkit-transform: scale(1.08);
-  transform: scale(1.08);
+  margin-bottom: 2rem;
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  
 }
 
 .wg-box-content-image {
   opacity: 1;
   width: 100%;
-  -webkit-transition: 0.4s ease;
-  transition: 0.4s ease;
+  
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
 }
 
 .wg-box-content-details {
@@ -103,4 +107,10 @@
 
 .wg-box-fadeIn-bottom {
   top: 80%;
+}
+
+@media only screen and (max-width: 600px){
+  .container .titlee{
+    font-size: 3.5rem;
+  }
 }

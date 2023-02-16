@@ -43,7 +43,8 @@ function Events() {
           spacing={1}
           justifyContent="center"
           rowGap={8}
-          marginTop="30px"
+          marginTop="40px"
+          marginBottom="70px"
         >
           <AnimatePresence>
             {event.map((e) => (

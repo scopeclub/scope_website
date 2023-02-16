@@ -6,7 +6,6 @@
 }
 
 .c-head {
-
   font-weight: 500;
   font-size: 4.5rem;
   line-height: 1;
@@ -44,7 +43,7 @@
 *:focus {
   outline: none;
 }
-.container{
+.container {
   display: inline-block;
   margin: auto;
 }
@@ -61,14 +60,13 @@
     #9f01ea
   );
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .container form {
   display: flex;
   flex-direction: column;
   padding: 10px 0 0 0;
-  
-  
 }
 .container form .form-row {
   margin: 32px 10px;
@@ -192,20 +190,19 @@ form .form-row .textarea {
 
 /*button*/
 .btn41-43 {
-  
-    padding: 10px 25px;
-    margin-right: auto;
-    text-align: center;
-    border-radius: 5px;
-    font-weight: 500;
-    background: transparent;
-    outline: none !important;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    position: relative;
-    text-decoration: none;
-    text-transform: uppercase;
-    display: inline-block;
+  padding: 10px 25px;
+  margin-right: auto;
+  text-align: center;
+  border-radius: 5px;
+  font-weight: 500;
+  background: transparent;
+  outline: none !important;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
 }
 
 .btn-43 {

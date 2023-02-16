@@ -12,7 +12,6 @@ function Gallery() {
         opacity: 1,
       }}
       transition={{ duration: 0.5 }}
-      
     >
       <div class="container">
         <h1 class="titlee">Glimpses!</h1>
@@ -20,13 +19,11 @@ function Gallery() {
         <motion.div class="image-container">
           {gallerydata.map((g) => (
             <div class="wg-box-content">
-              <a href="#">
-                <div class="wg-box-content-overlay"></div>
-                <img class="wg-box-content-image" src={g.img} />
-                <div class="wg-box-content-details wg-box-fadeIn-bottom">
-                  <h3 class="wg-box-content-title">{g.eventName}</h3>
-                </div>
-              </a>
+              <div class="wg-box-content-overlay"></div>
+              <img class="wg-box-content-image" src={g.img} alt={g.eventName} />
+              <div class="wg-box-content-details wg-box-fadeIn-bottom">
+                <h3 class="wg-box-content-title">{g.eventName}</h3>
+              </div>
             </div>
           ))}
         </motion.div>
