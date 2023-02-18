@@ -1,6 +1,6 @@
 .EventCard {
   margin: auto;
-  width: 320px;
+  width: 350px;
   height: 450px;
   border-radius: 3px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
@@ -10,9 +10,9 @@
 .EventCard .thumb {
   
   width: auto;
-  height: 350px;
-  background-repeat: no-repeat;
-  background-position: center;
+  height: 340px;
+  background-size:cover;
+  background-position:  center;
   border-radius: 3px;
 }
 .EventCard .infos {

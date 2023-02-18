@@ -1,6 +1,6 @@
 import "./Events.css";
 import EventCard from "./EventCard";
-import ed from "../../Assets/Data/EventData.json";
+import ed from "../../Assets/Data/EventData";
 import { useState } from "react";
 import { Grid } from "@mui/material";
 import { motion, AnimatePresence } from "framer-motion";
