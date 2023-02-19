@@ -1,5 +1,9 @@
 import "./Team.css";
 import { bod } from "../../Assets/Data/TeamData";
+import { t22 } from "../../Assets/Data/TeamData22";
+import { t23 } from "../../Assets/Data/TeamData23";
+import { t24 } from "../../Assets/Data/TeamData24";
+import { t25 } from "../../Assets/Data/TeamData25";
 import TeamCard from "./TeamCard";
 import { motion } from "framer-motion";
 
@@ -37,9 +41,23 @@ function Team() {
             />
           ))}
         </div>
+        <h2 className="team-p">Team 2k25</h2>
+        <div className="bod">
+          {t25.map((t) => (
+            <TeamCard
+              key={t.id}
+              image={t.image}
+              name={t.name}
+              position={t.position}
+              git={t.socials.github}
+              insta={t.socials.instagram}
+              li={t.socials.linkedin}
+            />
+          ))}
+        </div>
         <h2 className="team-p">Team 2k24</h2>
         <div className="bod">
-          {bod.map((t) => (
+          {t24.map((t) => (
             <TeamCard
               key={t.id}
               image={t.image}
@@ -53,7 +71,7 @@ function Team() {
         </div>
         <h2 className="team-p">Team 2k23</h2>
         <div className="bod">
-          {bod.map((t) => (
+          {t23.map((t) => (
             <TeamCard
               key={t.id}
               image={t.image}
@@ -65,9 +83,9 @@ function Team() {
             />
           ))}
         </div>
-        <h2 className="team-p">Team 2k25</h2>
+        <h2 className="team-p">Team 2k22</h2>
         <div className="bod">
-          {bod.map((t) => (
+          {t22.map((t) => (
             <TeamCard
               key={t.id}
               image={t.image}
