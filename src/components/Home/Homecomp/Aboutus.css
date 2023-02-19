@@ -1,0 +1,11 @@
+.about{
+
+}
+
+.about >p{
+   width: auto;
+   padding: 50px;
+   word-spacing: 2px;
+   line-height: 1.5rem;
+   text-align: justify;
+}

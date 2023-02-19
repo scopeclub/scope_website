@@ -61,6 +61,7 @@
   );
   -webkit-background-clip: text;
   background-clip: text;
+  outline: none;
   -webkit-text-fill-color: transparent;
 }
 .container form {
@@ -88,9 +89,9 @@ form .form-row .textarea {
   display: block;
   width: 70%;
   height: 100%;
-  border-top-style: hidden;
-  border-right-style: hidden;
-  border-left-style: hidden;
+  border-top-style: hidden !important;
+  border-right-style: hidden !important;
+  border-left-style: hidden !important;
   font-size: 17px;
   border-bottom-style: 2px solid rgba(25, 24, 24, 0.12);
 }

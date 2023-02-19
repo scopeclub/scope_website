@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+.container-particle {
+  display: grid;
+  place-content: center;
+  min-block-size: 100%;
+  line-height: 1.375;
+  width: 100%;
+  height: 100vh;
+  background-color: #0c0c0f;
+}
+.headerr {
+  z-index: 1;
+  font-size: 1.8rem;
+
+}
+
+.headerr >h1{
+  font-family: 'Orbitron', sans-serif;
+}
+@layer demo {
+  :root {
+    --blob-size: 600px;
+    --blob-speed: 8s;
+    --blob-speed-scale: calc(0.75 * var(--blob-speed));
+    --blob-speed-move: calc(1 * var(--blob-speed));
+    --blob-speed-rotate: calc(2 * var(--blob-speed));
+    --blob-opacity: 0.5;
+    --blob-blur: 80px;
+    --blob-color-1: #ff1af0;
+    --blob-color-2: #1af7ff;
+    --blob-color-3: #1a75ff;
+  }
+  .blobs {
+    position: relative;
+    filter: blur(var(--blob-blur));
+  }
+  .blobs * {
+    backface-visibility: hidden;
+    transform-origin: 50% 50%;
+    transform-style: preserve-3d;
+    will-change: transform;
+  }
+  .blobs:after {
+    position: relative;
+    display: block;
+    width: 22rem;
+    height: 38rem;
+    background: rgba(184, 184, 184, 0.08);
+    backdrop-filter: blur(8rem) saturate(1.6);
+    border-radius: 1.5rem;
+    z-index: 2;
+  }
+  .blob {
+    width: var(--blob-size);
+    height: calc(0.25 * var(--blob-size));
+    background-color: var(--blob-color-1);
+    border-radius: 100%;
+    opacity: var(--blob-opacity);
+    mix-blend-mode: multiply;
+    animation: blob ease-in-out var(--blob-speed-scale) infinite;
+  }
+  .blobs > :nth-child(2) .blob {
+    background-color: var(--blob-color-2);
+    animation-delay: calc(-0.8 * var(--blob-speed-scale));
+  }
+  .blobs > :nth-child(3) .blob {
+    background-color: var(--blob-color-3);
+    animation-delay: calc(-0.2 * var(--blob-speed-scale));
+  }
+  @keyframes blob {
+    0%,
+    100% {
+      transform: scale(0.8, 2);
+    }
+    50% {
+      transform: scale(1.4, 0.8);
+    }
+  }
+  .blob-rotate {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    animation: blob-rotate linear var(--blob-speed-rotate) infinite alternate;
+  }
+  .blob-rotate:nth-child(2) {
+    animation-duration: calc(2 * var(--blob-speed-rotate));
+    animation-delay: calc(-1.5 * var(--blob-speed-rotate));
+  }
+  .blob-rotate:nth-child(3) {
+    animation-direction: alternate-reverse;
+    animation-duration: calc(0.8 * var(--blob-speed-rotate));
+    animation-delay: calc(-1 * var(--blob-speed-rotate));
+  }
+  @keyframes blob-rotate {
+    0% {
+      transform: translate3d(-50%, -50%, 0) rotateZ(-28deg);
+      transform-origin: 50% 100%;
+    }
+    100% {
+      transform: translate3d(-50%, -50%, 0) rotateZ(28deg);
+      transform-origin: 50% 0%;
+    }
+  }
+  .blob-move {
+    animation: blob-move ease-in-out var(--blob-speed-move) infinite;
+  }
+  .blobs > :nth-child(2) .blob-move {
+    animation-delay: calc(-0.8 * var(--blob-speed-move));
+  }
+  .blobs > :nth-child(3) .blob-move {
+    animation-delay: calc(-0.4 * var(--blob-speed-move));
+  }
+  @keyframes blob-move {
+    0%,
+    100% {
+      transform: translateX(30%);
+    }
+    50% {
+      transform: translateX(-30%);
+    }
+  }
+}
+@layer demo.support {
+  *,
+  :before,
+  :after {
+    box-sizing: border-box;
+  }
+}
+
+@media only screen and (max-device-width: 600px) {
+  @layer demo {
+    :root {
+      --blob-size: 200px;
+      --blob-opacity: 2;
+    }
+  }
+  .headerr{
+    font-size: 1.5rem;
+  }
+
+  .blob{
+    height: calc(0.40 * var(--blob-size));
+  }
+}
+
+@media only screen and (min-device-width: 601px) and (max-device-width: 1024px) {
+  @layer demo {
+    :root {
+      --blob-size: 300px;
+      --blob-opacity: 2;
+    }
+  }
+
+  .blob{
+    height: calc(0.40 * var(--blob-size));
+  }
+
+}

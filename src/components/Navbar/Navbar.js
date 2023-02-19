@@ -20,29 +20,32 @@ function Navbar() {
   window.addEventListener("scroll", changeColor);
   return (
     <div className={color ? "header header-bg" : "header"}>
-      <img src={logo} alt="logo" className="logo" />
+      <a href="/">
+        <img src={logo} alt="logo" className="logo" />
+      </a>
+
       <ul className={click ? "nav-menu active" : "nav-menu"}>
-        <li>
+        <li onClick={handleClick}>
           <Link style={{ textDecoration: "none" }} to="/">
             Home
           </Link>
         </li>
-        <li>
+        <li onClick={handleClick}>
           <Link style={{ textDecoration: "none" }} to="/team">
             Team
           </Link>
         </li>
-        <li>
+        <li onClick={handleClick}>
           <Link style={{ textDecoration: "none" }} to="/events">
             Events
           </Link>
         </li>
-        <li>
+        <li onClick={handleClick}>
           <Link style={{ textDecoration: "none" }} to="/gallery">
             Gallery
           </Link>
         </li>
-        <li>
+        <li onClick={handleClick}>
           <Link style={{ textDecoration: "none" }} to="/contact">
             Contact Us
           </Link>
