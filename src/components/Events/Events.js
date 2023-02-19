@@ -23,7 +23,6 @@ function Events() {
         opacity: 1,
       }}
       transition={{ duration: 0.5 }}
-      
     >
       <div className="events-h">
         <h3 class="animate-charcter">Our Events</h3>

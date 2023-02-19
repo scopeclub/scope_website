@@ -7,6 +7,7 @@ import { t25 } from "../../Assets/Data/TeamData25";
 import TeamCard from "./TeamCard";
 import { motion } from "framer-motion";
 
+
 function Team() {
   return (
     <motion.div
@@ -28,7 +29,7 @@ function Team() {
         </h3>
         <h2 className="team-p">Board of Directors</h2>
 
-        <div className="bod">
+        <div className="bodd">
           {bod.map((t) => (
             <TeamCard
               key={t.id}
