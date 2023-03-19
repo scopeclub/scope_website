@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
 .container-particle {
   display: grid;
   place-content: center;
@@ -8,18 +8,18 @@
   height: 100vh;
   background-color: #0c0c0f;
 }
-.headerr {
-  z-index: 1;
-  font-size: 1.8rem;
 
+
+.headerr .text--glitch{
+  font-size: 6rem;;
 }
 
-.headerr >h1{
-  font-family: 'Orbitron', sans-serif;
+.headerr > h1 {
+  font-family: "Orbitron", sans-serif;
 }
 @layer demo {
   :root {
-    --blob-size: 600px;
+    --blob-size: 700px;
     --blob-speed: 8s;
     --blob-speed-scale: calc(0.75 * var(--blob-speed));
     --blob-speed-move: calc(1 * var(--blob-speed));
@@ -135,13 +135,19 @@
       --blob-opacity: 2;
     }
   }
-  .headerr{
+  .headerr {
     font-size: 1.5rem;
   }
 
-  .blob{
-    height: calc(0.40 * var(--blob-size));
+  .blob {
+    height: calc(0.4 * var(--blob-size));
   }
+
+ 
+  .headerr .text--glitch{
+    font-size: 3rem;;
+  }
+
 }
 
 @media only screen and (min-device-width: 601px) and (max-device-width: 1024px) {
@@ -152,8 +158,11 @@
     }
   }
 
-  .blob{
-    height: calc(0.40 * var(--blob-size));
+  .blob {
+    height: calc(0.4 * var(--blob-size));
   }
 
+  .headerr .text--glitch{
+    font-size: 4rem;;
+  }
 }
