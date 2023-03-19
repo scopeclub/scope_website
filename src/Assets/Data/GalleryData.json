@@ -1,92 +1,92 @@
 [
     {
         "id":1,
-        "img": "sample1.jpg",
+        "img": "GalleryImg/Splash.JPG",
         "eventName":"Splash"
 
     },
     {
         "id":2,
-        "img": "https://i.pinimg.com/originals/62/3a/a8/623aa8f9933ee9a286871bf6e0782538.jpg",
+        "img": "GalleryImg/Splash1.JPG",
         "eventName":"Splash"
 
     },
     {
         "id":3,
-        "img": "https://thecinemaholic.com/wp-content/uploads/2021/01/nezuu-e1638963260523.jpg",
+        "img": "GalleryImg/Splash2.JPG",
         "eventName":"Splash"
 
     },
     {
         "id":4,
-        "img": "https://image.shutterstock.com/image-photo/mountains-during-sunset-beautiful-natural-260nw-407021107.jpg",
+        "img": "GalleryImg/Splash3.JPG",
         "eventName":"Splash"
 
     },
     {
         "id":5,
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHCrkq3Fy09b3hZFEucEJBCzbCUQq4XGQ1_3Kc7z1CgA&s",
+        "img": "GalleryImg/Splash4.JPG",
         "eventName":"Splash"
 
     },
     {
         "id":6,
-        "img": "https://cdn.pixabay.com/photo/2014/02/27/16/10/flowers-276014__340.jpg",
+        "img": "GalleryImg/Splash5.JPG",
         "eventName":"Splash"
 
     },
     {
         "id":7,
-        "img": "https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg",
-        "eventName":"Splash"
+        "img": "GalleryImg/Interaction_2022.JPG",
+        "eventName":"Interaction Day 2022"
 
     },
     {
         "id":8,
-        "img": "https://www.looper.com/img/gallery/30-most-popular-boy-anime-characters-ranked-worst-to-best/l-intro-1648715126.jpg",
-        "eventName":"Splash"
+        "img": "GalleryImg/Interaction2k224.JPG",
+        "eventName":"Interaction Day 2022"
 
     },
     {
         "id":9,
-        "img": "https://www.lifewire.com/thmb/MK4CcSmQTtPHNz0K1WntiZrk_8w=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/image-anime-pokemon-5a191e1789eacc00372449e8.jpg",
-        "eventName":"Splash"
+        "img": "GalleryImg/Gamehub2.o.JPG",
+        "eventName":"GameHub 2.0"
 
     },
     {
         "id":10,
-        "img": "https://www.liveabout.com/thmb/EuzMFCouNw8IFMXsJj9rttEvCcg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-148520785-5ad9029f43a1030037b76966-5b92e966c9e77c008294ae38.jpg",
-        "eventName":"Splash"
+        "img": "GalleryImg/Gamehub2.o1.JPG",
+        "eventName":"GameHub 2.0"
 
     },
     {
         "id":11,
-        "img": "https://www.liveabout.com/thmb/EuzMFCouNw8IFMXsJj9rttEvCcg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-148520785-5ad9029f43a1030037b76966-5b92e966c9e77c008294ae38.jpg",
-        "eventName":"Splash"
+        "img": "GalleryImg/Gamehub2.o2.JPG",
+        "eventName":"GameHub 2.0"
 
     },
     {
         "id":12,
-        "img": "https://www.liveabout.com/thmb/EuzMFCouNw8IFMXsJj9rttEvCcg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-148520785-5ad9029f43a1030037b76966-5b92e966c9e77c008294ae38.jpg",
-        "eventName":"Splash"
+        "img": "GalleryImg/Interaction2k225.JPG",
+        "eventName":"Interaction Day 2022"
 
     },
     {
         "id":13,
-        "img": "https://www.liveabout.com/thmb/EuzMFCouNw8IFMXsJj9rttEvCcg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-148520785-5ad9029f43a1030037b76966-5b92e966c9e77c008294ae38.jpg",
-        "eventName":"Splash"
+        "img": "GalleryImg/Interaction2k223.JPG",
+        "eventName":"Interaction Day 2022"
 
     },
     {
         "id":14,
-        "img": "https://www.liveabout.com/thmb/EuzMFCouNw8IFMXsJj9rttEvCcg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-148520785-5ad9029f43a1030037b76966-5b92e966c9e77c008294ae38.jpg",
-        "eventName":"Splash"
+        "img": "GalleryImg/Interaction2k222.JPG",
+        "eventName":"Interaction Day 2022"
 
     },
     {
         "id":15,
-        "img": "https://www.liveabout.com/thmb/EuzMFCouNw8IFMXsJj9rttEvCcg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-148520785-5ad9029f43a1030037b76966-5b92e966c9e77c008294ae38.jpg",
-        "eventName":"Splash"
+        "img": "GalleryImg/Interaction2k221.JPG",
+        "eventName":"Interaction Day 2022"
 
     }
 
