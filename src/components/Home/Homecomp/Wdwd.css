@@ -1,62 +1,64 @@
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;500&display=swap');
-.wdwd{
-	display: flex;
-	height: 100vh;
-	margin: 0;
-	padding-top: 50px;
-	font-family: "Sora", sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;500&display=swap");
+.wdwd {
+  display: flex;
+  height: 100vh;
+  margin: 0;
+  padding-top: 50px;
+  font-family: "Sora", sans-serif;
 }
-
-.wd .text--glitch{
-  font-size: 3.5rem;
-}
-
 
 .wdwd div {
-	height: 100%;
-	width: calc(100% / 3);
-	cursor: pointer;
-	transition: width 750ms ease-in-out;
-	transition-delay: 250ms;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+  position: relative;
+  height: 100%;
+  width: calc(100% / 3);
+  cursor: pointer;
+  transition: width 750ms ease-in-out;
+  transition-delay: 250ms;
+  display: flex;
+  align-items: center;
 }
 
-.wdwd div:nth-child(1) {
-	background: #dedede;
-	color: black;
+.wdwd div:nth-child(1) img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.5;
 }
 
-.wdwd div:nth-child(2) {
-	background: #000;
-	color: white;
+.wdwd div:nth-child(2) img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.5;
 }
 
-.wdwd div:nth-child(3) {
-	background: #e9a4b3;
-	color: white;
+.wdwd div:nth-child(3) img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.5;
 }
 
 .wdwd p {
-	text-align: center;
-	font-weight: 700;
-	transition: all 750ms ease-in-out;
-	transition-delay: 250ms;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 500;
+  transition: all 750ms ease-in-out;
+  transition-delay: 250ms;
 }
 
 .wdwd div:hover {
-	width: 200%;
+  width: 100%;
 }
 
 .wdwd div:hover p {
-	transform: scale(4);
+  transform: scale(2);
 }
 
-
-.code{
-
-
+.code {
   font-size: 2vmin;
   font-family: JetBrains Mono, monospace;
   height: 100vh;
@@ -64,7 +66,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .string {
@@ -81,7 +82,7 @@
 }
 
 .closure::after {
-  content: '';
+  content: "";
   position: absolute;
   height: 25vmin;
   width: 50vmin;
@@ -90,7 +91,7 @@
 }
 
 .closure::before {
-  content: '';
+  content: "";
   position: absolute;
   height: 25vmin;
   width: 40vmin;
@@ -124,5 +125,17 @@
   }
   75% {
     transform: translatey(-16.5vmin);
+  }
+}
+
+@media screen and (max-width: 768px){
+
+  .wdwd p{
+    font-size: 1.2rem;
+
+  }
+  
+  .wdwd div:hover p {
+    transform: scale(1.3);
   }
 }

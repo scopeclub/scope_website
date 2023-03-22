@@ -7,12 +7,15 @@ function Wdwd() {
 
       <div className="wdwd">
         <div>
+        <img src="https://eventornado-files.ams3.cdn.digitaloceanspaces.com/blogposts/20/do4kClwEOUkbY8nvZ8CPsF0jrOoRxJDylC3AXoRo.jpeg" alt="lemurs" class="bg-image" />
           <p>Hackathons</p>
         </div>
         <div>
-          <p>Mentorships</p>
+        <img src="https://kit8.net/wp-content/uploads/2020/12/Coding@2x.png" alt="lemurs" class="bg-image" />
+          <p>Coding Contests</p>
         </div>
         <div>
+        <img src="https://codequotient.com/blog/wp-content/uploads/2022/02/Technical-Mentorship-How-to-Get-the-Most-Out-of-It-1.jpg" alt="lemurs" class="bg-image" />
           <p>Projects</p>
         </div>
       </div>
