@@ -3,9 +3,9 @@
   margin: auto;
   text-align: left;
 }
-.row {
+.roww {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: space-between;
 }
 ul {
@@ -13,10 +13,10 @@ ul {
 }
 .footer {
   background-color: #24262b;
-  padding: 70px 0;
+  padding: 50px 0;
 }
 .footer-col {
-  width: 60%;
+  width: 70%;
   padding: 0 15px;
 }
 
@@ -82,6 +82,10 @@ ul {
 
 /*responsive*/
 @media (max-width: 767px) {
+
+  .roww{
+    flex-wrap: wrap;
+  }
   .footer-col {
     width: 50%;
     margin-bottom: 40px;

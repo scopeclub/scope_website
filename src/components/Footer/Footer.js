@@ -5,7 +5,7 @@ function Footer() {
   return (
     <footer class="footer">
       <div class="containerr">
-        <div class="row">
+        <div class="roww">
           <div class="footer-col">
             <h4>Write</h4>
             <ul>
