@@ -6,9 +6,9 @@ export const t24 = [
       alt: "SIDDHARTH",
       image: "Team/t24/sidhharth-.webp",
       socials: {
-        linkedin: "",
-        github: '',
-        instagram:'',
+        linkedin: "https://www.linkedin.com/in/siddharth-kanna-823bb5219",
+        github: 'https://github.com/siddharthkanna',
+        instagram:'https://www.instagram.com/siddharth__kanna',
       },
     },
     {
@@ -18,7 +18,7 @@ export const t24 = [
       alt: "YOGGI HARSHA",
       image: "Team/t24/yoggi.webp",
       socials: {
-        linkedin: "",
+        linkedin: "https://www.linkedin.com/in/yoggi-harsha-5bb2a61b6/?locale=es_ES",
         github: '',
         instagram:'',
       },
@@ -30,7 +30,7 @@ export const t24 = [
       alt: "VENKAT GANESH",
       image: "Team/t24/ganesh.webp",
       socials: {
-        linkedin: "",
+        linkedin: "https://www.linkedin.com/in/ganesh-kallagunta-873891204/",
         github: '',
         instagram:'',
       },
@@ -42,7 +42,7 @@ export const t24 = [
       alt: "RAJENDRA",
       image: "Team/t24/KONDAPAMULA-RAJENDRA.webp",
       socials: {
-        linkedin: "",
+        linkedin: "https://www.linkedin.com/in/rajendra-k-850493204/",
         github: '',
         instagram:'',
       },
@@ -54,8 +54,8 @@ export const t24 = [
       alt: "SRESHTA",
       image: "Team/t24/shreshta.webp",
       socials: {
-        linkedin: "",
-        github: '',
+        linkedin: "https://www.linkedin.com/in/sreshtamannam0202/",
+        github: 'https://github.com/SreshtaMannam',
         instagram:'',
       },
     },
@@ -78,7 +78,7 @@ export const t24 = [
       alt: "SPANDANA",
       image: "Team/t24/spandana.webp",
       socials: {
-        linkedin: "",
+        linkedin: "https://www.linkedin.com/in/spandana-reddy-595a36236/?originalSubdomain=in",
         github: '',
         instagram:'',
       },
@@ -90,7 +90,7 @@ export const t24 = [
       alt: "LOHITH",
       image: "Team/t24/IMG_0220-1.webp",
       socials: {
-        linkedin: "",
+        linkedin: "https://www.linkedin.com/in/lohith-palasa-266262237/?trk=public_profile_browsemap&originalSubdomain=in",
         github: '',
         instagram:'',
       },
@@ -102,7 +102,7 @@ export const t24 = [
       alt: "RITHVIKA",
       image: "Team/t24/rithvika.webp",
       socials: {
-        linkedin: "",
+        linkedin: "https://www.linkedin.com/in/lakshmi-rithvika-b1025a237/?originalSubdomain=in",
         github: '',
         instagram:'',
       },
@@ -114,7 +114,7 @@ export const t24 = [
       alt: "ADITYA RAM",
       image: "Team/t24/aditya.webp",
       socials: {
-        linkedin: "",
+        linkedin: "https://www.linkedin.com/in/v-aditya-ram-645878215/?originalSubdomain=in",
         github: '',
         instagram:'',
       },
@@ -129,7 +129,7 @@ export const t24 = [
       socials: {
         linkedin: "",
         github: '',
-        instagram:'',
+        instagram:'https://www.instagram.com/_aishu002',
       },
     },
     {
@@ -137,7 +137,7 @@ export const t24 = [
       name: "Rahul Konda",
       position: "",
       alt: "Rahul Konda",
-      image: "Team/t24/",
+      image: "Team/t24/RAHUL.jpg",
       socials: {
         linkedin: "",
         github: '',
@@ -146,13 +146,25 @@ export const t24 = [
     },
     {
       id: 12,
+      name: "varun shanagapati",
+      position: "",
+      alt: "varun shanagapati",
+      image: "Team/t24/varun.jpg",
+      socials: {
+        linkedin: "https://www.linkedin.com/in/varun-shanagapati-697b691b9/?originalSubdomain=in",
+        github: 'https://github.com/varunshanagapati',
+        instagram:'',
+      },
+    },
+    {
+      id: 13,
       name: "PREMCHAND",
       position: "",
       alt: "PREMCHAND",
-      image: "Team/t24/",
+      image: "Team/t24/prem.jpg",
       socials: {
-        linkedin: "",
-        github: '',
+        linkedin: "https://www.linkedin.com/in/ch-premchand/",
+        github: 'https://github.com/ch-premchand',
         instagram:'',
       },
     },

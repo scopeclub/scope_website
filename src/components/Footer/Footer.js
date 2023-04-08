@@ -19,7 +19,7 @@ function Footer() {
           <div class="footer-col">
             <h4>Meet</h4>
             <p>
-              MLRIT,
+              MT 003-SCOPE CLUB,MLRIT,
               <br />
               Dundigal Police Station Road,
               <br />

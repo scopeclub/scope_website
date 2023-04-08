@@ -20,17 +20,17 @@ function TeamCard(props) {
         </div>
         <ul class="sci">
           <li>
-            <a href="/">
+            <a href={props.git}>
               <i class="fa fa-github"></i>{" "}
             </a>
           </li>
           <li>
-            <a href="/">
+            <a href={props.li} target="blank">
               <i class="fa fa-linkedin"></i>{" "}
             </a>
           </li>
           <li>
-            <a href="/">
+            <a href={props.insta}>
               <i class="fa fa-instagram"></i>{" "}
             </a>
           </li>
