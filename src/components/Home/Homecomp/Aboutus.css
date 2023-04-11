@@ -8,14 +8,14 @@
 }
 
 .row {
+  
   width: 100%;
-  max-width: 1500px;
+  max-width: 1400px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 50px 100px;
-  margin-bottom: auto;
+  grid-gap: 60px 100px;
+  margin-bottom: 100px;
 }
-
 
 .row .left {
   overflow: hidden;
@@ -34,7 +34,7 @@
 }
 
 .row .right .content {
-  padding-left: 20px;
+  padding-left: 40px;
 }
 
 .row .right .content p {
@@ -49,6 +49,7 @@
   .row {
     width: 80%;
     grid-template-columns: 1fr;
+    margin-bottom: auto;
   }
 
   .row .right .content p {

@@ -1,1 +1,1 @@
-Scope Club Official Website.
+This is the Official Website of Scope Club,MLRIT
