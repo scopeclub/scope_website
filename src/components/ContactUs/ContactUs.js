@@ -30,21 +30,21 @@ function ContactUs() {
         <form action="#">
           <div class="form-row">
             <div class="input-data">
-              <input type="text" required />
+              <input type="text" name="name" required />
               <div class="underline"></div>
               <label for="">Your Name</label>
             </div>
           </div>
           <div class="form-row">
             <div class="input-data">
-              <input type="text" required />
+              <input type="text" name="mail"required />
               <div class="underline"></div>
               <label for="">Your Email Address</label>
             </div>
           </div>
           <div class="form-row">
             <div class="input-data textarea">
-              <textarea rows="8" cols="80" required></textarea>
+              <textarea rows="8" cols="80" name="message" required></textarea>
               <br />
               <div class="underline"></div>
               <label for="">Write your message</label>

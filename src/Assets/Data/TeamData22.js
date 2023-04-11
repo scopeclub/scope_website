@@ -6,9 +6,9 @@ export const t22 = [
       alt: "SRIKANTH",
       image: "Team/t22/C-SRIKANTH-2.webp",
       socials: {
-        linkedin: "",
-        github: '',
-        instagram:'',
+        linkedin: "/",
+        github: "/",
+        instagram:"/",
       },
     },
     {
@@ -18,9 +18,9 @@ export const t22 = [
       alt: "SUDHIKSHA",
       image: "Team/t22/Malla-Sai-Sudhiksha-1.webp",
       socials: {
-        linkedin: "",
-        github: '',
-        instagram:'',
+        linkedin: "/",
+        github: "/",
+        instagram:"/",
       },
     },
     {
@@ -30,9 +30,9 @@ export const t22 = [
       alt: "VAMSI KRISHNA",
       image: "Team/t22/Vamsi-Krishna_.webp",
       socials: {
-        linkedin: "",
-        github: '',
-        instagram:'',
+        linkedin: "/",
+        github: "/",
+        instagram:"/",
       },
     },
     {
@@ -42,9 +42,9 @@ export const t22 = [
       alt: "BHARGAV SAI",
       image: "Team/t22/CH-BHARGAV-SAI-1.webp",
       socials: {
-        linkedin: "",
-        github: '',
-        instagram:'',
+        linkedin: "/",
+        github: "/",
+        instagram:"/",
       },
     },
     {
@@ -54,9 +54,9 @@ export const t22 = [
       alt: "SAI VISHNU",
       image: "Team/t22/Sai-Vishnu-Gopisetti-1.webp",
       socials: {
-        linkedin: "",
-        github: '',
-        instagram:'',
+        linkedin: "/",
+        github: "/",
+        instagram:"/",
       },
     },
     {
@@ -66,9 +66,9 @@ export const t22 = [
       alt: "HARSHINI",
       image: "Team/t22/Harshini-Kanamathareddy-1.webp",
       socials: {
-        linkedin: "",
-        github: '',
-        instagram:'',
+        linkedin: "/",
+        github: "/",
+        instagram:"/",
       },
     },
     {
@@ -78,9 +78,9 @@ export const t22 = [
       alt: "NAVEEN",
       image: "Team/t22/T-NAVEEN.webp",
       socials: {
-        linkedin: "",
-        github: '',
-        instagram:'',
+        linkedin: "/",
+        github: "/",
+        instagram:"/",
       },
     },
     {
@@ -90,9 +90,9 @@ export const t22 = [
       alt: "ARUN",
       image: "Team/t22/ArunKumarReddy.webp",
       socials: {
-        linkedin: "",
-        github: '',
-        instagram:'',
+        linkedin: "/",
+        github: "/",
+        instagram:"/",
       },
     },
     {
@@ -102,9 +102,9 @@ export const t22 = [
       alt: "HEMANTH",
       image: "Team/t22/Hemanth-Reddy-Sambavaram-1.webp",
       socials: {
-        linkedin: "",
-        github: '',
-        instagram:'',
+        linkedin: "/",
+        github: "/",
+        instagram:"/",
       },
     },
     {
@@ -114,9 +114,9 @@ export const t22 = [
       alt: "NAVYA",
       image: "Team/t22/Navya-Sree-Konakanchi.webp",
       socials: {
-        linkedin: "",
-        github: '',
-        instagram:'',
+        linkedin: "/",
+        github: "/",
+        instagram:"/",
       },
     },
     {
@@ -126,9 +126,9 @@ export const t22 = [
       alt: "KRUTHI",
       image: "Team/t22/Kruthi-1.webp",
       socials: {
-        linkedin: "",
-        github: '',
-        instagram:'',
+        linkedin: "/",
+        github: "/",
+        instagram:"/",
       },
     },
     {
@@ -138,9 +138,9 @@ export const t22 = [
       alt: "SAI KIRAN",
       image: "Team/t22/M-SAI-KIRAN-1.webp",
       socials: {
-        linkedin: "",
-        github: '',
-        instagram:'',
+        linkedin: "/",
+        github: "/",
+        instagram:"/",
       },
     },
     {
@@ -150,9 +150,9 @@ export const t22 = [
       alt: "ANUSHA",
       image: "Team/t22/Anusha-Chinthala-1.webp",
       socials: {
-        linkedin: "",
-        github: '',
-        instagram:'',
+        linkedin: "/",
+        github: "/",
+        instagram:"/",
       },
     },
     {
@@ -162,9 +162,9 @@ export const t22 = [
       alt: "SAI SRI",
       image: "Team/t22/SAI-SRI-1.webp",
       socials: {
-        linkedin: "",
-        github: '',
-        instagram:'',
+        linkedin: "/",
+        github: "/",
+        instagram:"/",
       },
     },
     {
@@ -174,9 +174,9 @@ export const t22 = [
       alt: "POOJITHA",
       image: "Team/t22/Gadhiraju-Poojitha-1.webp",
       socials: {
-        linkedin: "",
-        github: '',
-        instagram:'',
+        linkedin: "/",
+        github: "/",
+        instagram:"/",
       },
     },
     {
@@ -186,9 +186,9 @@ export const t22 = [
       alt: "JAANAKI RAMA KRISHNA",
       image: "Team/t22/Jaanaki-Rama-Krishna-1.webp",
       socials: {
-        linkedin: "",
-        github: '',
-        instagram:'',
+        linkedin: "/",
+        github: "/",
+        instagram:"/",
       },
     },
     {
@@ -198,9 +198,9 @@ export const t22 = [
       alt: "HYUDAYNATH",
       image: "Team/t22/Y-HRUDAYNATH-1.webp",
       socials: {
-        linkedin: "",
-        github: '',
-        instagram:'',
+        linkedin: "/",
+        github: "/",
+        instagram:"/",
       },
     },
   ];
