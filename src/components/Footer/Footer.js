@@ -30,9 +30,9 @@ function Footer() {
           </div>
           <div class="footer-col">
             <h4>follow us</h4>
-            <FaTwitter size="30px" style={{ margin: "10px", cursor: "pointer" }} />
-            <FaInstagram  size="30px"style={{ margin: "10px", cursor: "pointer" }} />
-            <FaLinkedin  size="30px" style={{ margin: "10px", cursor: "pointer" }}/>
+            <a href="https://twitter.com/MlritScope" target="_blank"><FaTwitter size="30px" style={{ margin: "10px", cursor: "pointer" }} /></a>
+            <a href="https://www.instagram.com/mlrit_scope" target="_blank"><FaInstagram  size="30px"style={{ margin: "10px", cursor: "pointer" }} /></a>
+            <a href="https://www.linkedin.com/in/scope-club-mlrit-9017541a3/?trk=public_profile_browsemap&originalSubdomain=in" target="_blank"><FaLinkedin  size="30px" style={{ margin: "10px", cursor: "pointer" }}/></a>
           </div>
         </div>
       </div>
