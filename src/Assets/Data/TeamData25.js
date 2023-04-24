@@ -1,8 +1,8 @@
 export const t25 = [
     {
       id: 0,
-      name: "Sane kiran kumar reddy ",
-      position: "/",
+      name: "Sahi ram kiran",
+      position: "VIDEO EDITOR",
       alt: "Sane kiran kumar reddy ",
       image: "Team/t25/ SAHI_RAM_KIRAN.jpeg",
       socials: {
@@ -14,7 +14,7 @@ export const t25 = [
     {
       id: 1,
       name: "G Sravani Reddy ",
-      position: "/",
+      position: "PROMOTIONS",
       alt: "G Sravani Reddy ",
       image: "Team/t25/GOLI SRAVANI REDDY.jpg",
       socials: {
@@ -26,7 +26,7 @@ export const t25 = [
     {
       id: 2,
       name: "T. Karthikeya",
-      position: "/",
+      position: "WEBSITE HANDLER",
       alt: "T. Karthikeya",
       image: "Team/t25/KARTHIKEYA.jpg",
       socials: {
@@ -38,7 +38,7 @@ export const t25 = [
     {
       id: 3,
       name: "M.Jayasree",
-      position: "/",
+      position: "TECHNICAL",
       alt: "M.Jayasree",
       image: "Team/t25/MADDELA JAYA SREE.jpg",
       socials: {
@@ -50,7 +50,7 @@ export const t25 = [
     {
       id: 4,
       name: "M.Gayathri Chowdary ",
-      position: "/",
+      position: "HOSPITALITY",
       alt: "M.Gayathri Chowdary ",
       image: "Team/t25/MALEMAPATI GAYAHTRI CHOWDARY.jpg",
       socials: {
@@ -62,7 +62,7 @@ export const t25 = [
     {
       id: 5,
       name: "N SUNIL",
-      position: "/",
+      position: "LEGALS",
       alt: "N SUNIL",
       image: "Team/t25/N P SUNIL.jpg",
       socials: {
@@ -74,7 +74,7 @@ export const t25 = [
   {
     id: 6,
     name: "Sahana",
-    position: "/",
+    position: "SOCIAL MEDIA HANDLER",
     alt: "Sahana",
     image: "Team/t25/SAHANA.jpg",
     socials: {
@@ -85,10 +85,10 @@ export const t25 = [
   },
   {
     id: 7,
-    name: "Tarun",
-    position: "/",
+    name: "Sai Tarun",
+    position: "TECHNICAL",
     alt: "Tarun",
-    image: "Team/t25/SANE KIRAN KUMAR REDDY.jpg",
+    image: "Team/t25/",
     socials: {
       linkedin: "/",
       github: "/",
@@ -98,7 +98,7 @@ export const t25 = [
   {
     id: 8,
     name: "Snehith",
-    position: "/",
+    position: "CONTENT WRITER",
     alt: "Snehith",
     image: "Team/t25/SILVERI SNEHITH.jpg",
     socials: {
@@ -110,7 +110,7 @@ export const t25 = [
   {
     id: 9,
     name: "Sirisha",
-    position: "/",
+    position: "LEGALS",
     alt: "Sirisha",
     image: "Team/t25/TAMMIREDDY SIRISHA.jpg",
     socials: {
@@ -122,7 +122,7 @@ export const t25 = [
   {
     id: 10,
     name: "P Harshitha",
-    position: "/",
+    position: "PROMOTIONS",
     alt: "P Harshitha",
     image: "Team/t25/",
     socials: {
@@ -134,7 +134,7 @@ export const t25 = [
   {
     id: 11,
     name: "Diwakar",
-    position: "/",
+    position: "TECHNICAL",
     alt: "Diwakar",
     image: "/",
     socials: {
@@ -144,11 +144,23 @@ export const t25 = [
     },
   },
   {
+    id: 12,
+    name: "Gayatri Viswanadha",
+    position: "CONTENT WRITING",
+    alt: "gayatri",
+    image: "Team/t25/GAYATHRI_V.JPG",
+    socials: {
+      linkedin: "/",
+      github: "/",
+      instagram:"/",
+    },
+  },
+  {
     id: 13,
-    name: "/",
-    position: "/",
-    alt: "/",
-    image: "/",
+    name: "Anvesh Sai",
+    position: "WEBSITE HANDLER",
+    alt: "Sai",
+    image: "Team/t25/",
     socials: {
       linkedin: "/",
       github: "/",
@@ -157,9 +169,9 @@ export const t25 = [
   },
   {
     id: 14,
-    name: "/",
-    position: "/",
-    alt: "/",
+    name: "Chakravarthy",
+    position: "PHOTOGRAPHY",
+    alt: "Chakri",
     image: "/",
     socials: {
       linkedin: "/",
@@ -169,9 +181,9 @@ export const t25 = [
   },
   {
     id: 15,
-    name: "/",
-    position: "/",
-    alt: "/",
+    name: "Dinesh",
+    position: "CONTENT WRITER",
+    alt: "Dinesh",
     image: "/",
     socials: {
       linkedin: "/",
@@ -181,9 +193,9 @@ export const t25 = [
   },
   {
     id: 16,
-    name: "/",
-    position: "/",
-    alt: "/",
+    name: "Janif",
+    position: "Graphic Designer",
+    alt: "Janif",
     image: "/",
     socials: {
       linkedin: "/",
@@ -193,10 +205,10 @@ export const t25 = [
   },
   {
     id: 17,
-    name: "/",
-    position: "/",
-    alt: "/",
-    image: "/",
+    name: "Shruthi Sai ",
+    position: "TECHNICAL",
+    alt: "Sai",
+    image: "",
     socials: {
       linkedin: "/",
       github: "/",
@@ -205,9 +217,9 @@ export const t25 = [
   },
   {
     id: 18,
-    name: "/",
-    position: "/",
-    alt: "/",
+    name: "Pravija Marlapati",
+    position: "Hospitality",
+    alt: "Pravija",
     image: "/",
     socials: {
       linkedin: "/",
@@ -217,8 +229,8 @@ export const t25 = [
   },
   {
     id: 19,
-    name: "/",
-    position: "/",
+    name: "",
+    position: "",
     alt: "/",
     image: "/",
     socials: {
@@ -229,10 +241,10 @@ export const t25 = [
   },
   {
     id: 20,
-    name: "/",
-    position: "/",
+    name: "Sushmitha Vadagave",
+    position: "Promotions",
     alt: "/",
-    image: "/",
+    image: "Team/t25/sushmitha1.jpg",
     socials: {
       linkedin: "/",
       github: "/",

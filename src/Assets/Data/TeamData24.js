@@ -1,20 +1,8 @@
 export const t24 = [
     {
       id: 0,
-      name: "SIDDHARTH",
-      position: "",
-      alt: "SIDDHARTH",
-      image: "Team/t24/sidhharth-.webp",
-      socials: {
-        linkedin: "https://www.linkedin.com/in/siddharth-kanna-823bb5219",
-        github: 'https://github.com/siddharthkanna',
-        instagram:'https://www.instagram.com/siddharth__kanna',
-      },
-    },
-    {
-      id: 1,
       name: "YOGGI HARSHA",
-      position: "",
+      position: "TREASURER",
       alt: "YOGGI HARSHA",
       image: "Team/t24/yoggi.webp",
       socials: {
@@ -22,11 +10,12 @@ export const t24 = [
         github: '',
         instagram:'',
       },
+      
     },
     {
-      id: 2,
+      id: 1,
       name: "VENKAT GANESH",
-      position: "",
+      position: "MEDIA",
       alt: "VENKAT GANESH",
       image: "Team/t24/ganesh.webp",
       socials: {
@@ -34,23 +23,38 @@ export const t24 = [
         github: '',
         instagram:'',
       },
+      
+    },
+    {
+      id: 2,
+      name: "SIDDHARTH",
+      position: "TECHNICAL",
+      alt: "SIDDHARTH",
+      image: "Team/t24/dp.jpeg",
+      socials: {
+        linkedin: "https://www.linkedin.com/in/siddharth-kanna-823bb5219",
+        github: 'https://github.com/siddharthkanna',
+        instagram:'https://www.instagram.com/siddharth__kanna',
+      },
+      
     },
     {
       id: 3,
-      name: "RAJENDRA",
-      position: "",
-      alt: "RAJENDRA",
-      image: "Team/t24/KONDAPAMULA-RAJENDRA.webp",
+      name: "ADITYA RAM",
+      position: "TECHNICAL",
+      alt: "ADITYA RAM",
+      image: "Team/t24/adityaa.png",
       socials: {
-        linkedin: "https://www.linkedin.com/in/rajendra-k-850493204/",
-        github: '',
-        instagram:'',
+        linkedin: "https://www.linkedin.com/in/v-aditya-ram-645878215/?originalSubdomain=in",
+        github: 'https://github.com/Aditya123-adi',
+        instagram:'https://instagram.com/aditya_ram_15?igshid=ZDdkNTZiNTM=',
       },
+    
     },
     {
       id: 4,
       name: "SRESHTA",
-      position: "",
+      position: "CONTENT WRITER",
       alt: "SRESHTA",
       image: "Team/t24/shreshta.webp",
       socials: {
@@ -62,7 +66,7 @@ export const t24 = [
     {
       id: 5,
       name: "BHARATH",
-      position: "",
+      position: "HOSPITALITY",
       alt: "BHARATH",
       image: "Team/t24/bharat.webp",
       socials: {
@@ -74,7 +78,7 @@ export const t24 = [
     {
       id: 6,
       name: "SPANDANA",
-      position: "",
+      position: "PROMOTIONS",
       alt: "SPANDANA",
       image: "Team/t24/spandana.webp",
       socials: {
@@ -86,7 +90,7 @@ export const t24 = [
     {
       id: 7,
       name: "LOHITH",
-      position: "",
+      position: "PROMOTIONS",
       alt: "LOHITH",
       image: "Team/t24/IMG_0220-1.webp",
       socials: {
@@ -98,7 +102,7 @@ export const t24 = [
     {
       id: 8,
       name: "RITHVIKA",
-      position: "",
+      position: "LEGALS",
       alt: "RITHVIKA",
       image: "Team/t24/rithvika.webp",
       socials: {
@@ -109,21 +113,22 @@ export const t24 = [
     },
     {
       id: 9,
-      name: "ADITYA RAM",
-      position: "",
-      alt: "ADITYA RAM",
-      image: "Team/t24/aditya.webp",
+      name: "RAJENDRA",
+      position: "EXTERNAL AFFAIRS",
+      alt: "RAJENDRA",
+      image: "Team/t24/KONDAPAMULA-RAJENDRA.webp",
       socials: {
-        linkedin: "https://www.linkedin.com/in/v-aditya-ram-645878215/?originalSubdomain=in",
+        linkedin: "https://www.linkedin.com/in/rajendra-k-850493204/",
         github: '',
         instagram:'',
       },
+  
     },
     
     {
       id: 10,
       name: "AISHWARYA",
-      position: "",
+      position: "HOSPITALITY",
       alt: "AISHWARYA",
       image: "Team/t24/aishwarya.webp",
       socials: {
@@ -132,22 +137,11 @@ export const t24 = [
         instagram:'https://www.instagram.com/_aishu002',
       },
     },
+    
     {
       id: 11,
-      name: "Rahul Konda",
-      position: "",
-      alt: "Rahul Konda",
-      image: "Team/t24/RAHUL.jpg",
-      socials: {
-        linkedin: "",
-        github: '',
-        instagram:'',
-      },
-    },
-    {
-      id: 12,
       name: "varun shanagapati",
-      position: "",
+      position: "TECHNICAL",
       alt: "varun shanagapati",
       image: "Team/t24/varun.jpg",
       socials: {
@@ -157,9 +151,9 @@ export const t24 = [
       },
     },
     {
-      id: 13,
+      id: 12,
       name: "PREMCHAND",
-      position: "",
+      position: "TECHNICAL",
       alt: "PREMCHAND",
       image: "Team/t24/prem.jpg",
       socials: {
