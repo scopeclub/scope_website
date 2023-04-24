@@ -3,6 +3,7 @@ import Events from "./Events/Events";
 import ContactUs from "./ContactUs/ContactUs";
 import Gallery from "./Gallery/Gallery";
 import Team from "./Team/Team";
+import AppFiesta from "./AppFiesta";
 import { Route, Routes, useLocation } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
 function AnimatedRoutes() {
@@ -15,6 +16,7 @@ function AnimatedRoutes() {
         <Route path="/contact" element={<ContactUs />} />
         <Route path="/team" element={<Team />} />
         <Route path="/gallery" element={<Gallery />} />
+        <Route path="/Appfiesta" element={<AppFiesta />} />
       </Routes>
     </AnimatePresence>
   );
