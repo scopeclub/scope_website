@@ -5,13 +5,21 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+ 
 }
+
+
+
 
 iframe {
   border: 1px solid #bfcbda88;
   border-radius: 4px;
   width: 30%;
   height: 70%;
+}
+img{
+  width: 30%;
+  height: 30%;
 }
 
 @media screen and (max-width: 768px) {
