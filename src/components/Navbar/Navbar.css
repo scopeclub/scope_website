@@ -18,9 +18,9 @@
 }
 .logo {
   cursor: pointer;
-  margin: 25px;
-  max-width: 120px;
-  max-height: 120px;
+  margin: 40px;
+  width: 120px;
+  height: 120px;
 }
 .nav-menu {
   display: flex;
@@ -105,6 +105,8 @@ ul {
   }
   .logo {
     margin: 0;
+    width: 100px;
+    height: 100px;
   }
   .button-64 {
     min-width: 30%;

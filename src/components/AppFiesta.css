@@ -3,48 +3,106 @@
   height: 100vh;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
- 
-}
-#alogo{
-  width: 45%;
-  height:40%;
 }
 
+.event {
+  padding: 0;
+  text-align: justify;
+}
 
+.eve-content {
+  padding-top: 1rem;
+}
+
+.eve-content > h2 {
+  padding-bottom: 1rem;
+  font-weight: 200;
+}
+
+.eve-content > h3 {
+  font-family: "Arial Black", Gadget, sans-serif;
+  text-transform: uppercase;
+  padding-top: 12px;
+}
+
+.eve-content > h4 {
+  font-weight: 300;
+}
+
+.event > h1 {
+  padding-bottom: 20px;
+}
+#alogo {
+  width: 250px;
+  height: 200px;
+}
+
+#qr {
+  width: 200px;
+  height: 200px;
+}
+
+.event > img {
+  width: 20%;
+  height: 30%;
+  border-radius: 10px;
+}
+
+.iframe-container {
+  border: 1px solid;
+  border-radius: 4px;
+  position: relative;
+  overflow: hidden;
+  width: 30%;
+  height: 80%;
+}
 
 iframe {
-  border: 1px solid #bfcbda88;
-  border-radius: 4px;
-  width: 80%;
-  height: 75%;
-}
-img{
-  width: 30%;
-  height: 30%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 850px) {
   .AppFiesta {
     display: flex;
     flex-direction: column;
-  }
+    height: 190vh ;
 
+  }
+  .event {
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
   .event > h1 {
-    padding-top: 100px;
+    padding-bottom: 20px;
+  }
+  .iframe-container {
+    width: 90%;
+  
+    
   }
 
-  iframe {
-    width: 95%;
-    height: 90%;
+  iframe{
+    width: 100%;
+  height: 100%;
+  }
+
+  .eve-content > h2 {
+    font-size: 1.2rem;
+  }
+  .eve-content > h3 {
+    font-size: 1rem;
   }
 }
-.qrcode{
-  height: 25%;
-  width: 25%;
-  margin-left: 35%;
-}
-.qrd{
-  text-align: left;
+.qr {
+  height: 100px;
+  width: 100px;
 }
