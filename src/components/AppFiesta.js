@@ -1,15 +1,17 @@
 import React from "react";
 import "./AppFiesta.css";
-import qr from '../Assets/qrcode.jpg'
+import Qr from '../Assets/qrcode.jpg'
+import AppLogo from '../Assets/appfiesta_logo.png'
 function AppFiesta() {
   return (
     <div className="AppFiesta">
         
       <div className="event">
-        <h1>App Fiesta</h1>
+
+        <img src={AppLogo} id="alogo" />
         <div></div>
-        <p>Bootcamp + Hackathon</p>
-        <img src={qr} />
+        <p>2 day Bootcamp + 1 day Hackathon</p>
+        <img src={Qr} />
         <p>UPI Phone Number: 9603166060</p>
         <p>Scan here to get ready with your team and take part in APPFIESTA!!</p>
         <h4>Team size - Amount</h4>
