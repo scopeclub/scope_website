@@ -21,8 +21,8 @@ function AppFiesta() {
       <iframe
         title="AppFiesta"
         src="https://lu.ma/embed-checkout/evt-eZEXm3GQlkBopdT"
-        width="600"
-        height="450"
+        width="1000"
+        height="500"
         frameborder="0"
         allowfullscreen=""
         aria-hidden="false"

@@ -14,8 +14,8 @@
 iframe {
   border: 1px solid #bfcbda88;
   border-radius: 4px;
-  width: 30%;
-  height: 70%;
+  width: 80%;
+  height: 75%;
 }
 img{
   width: 30%;
@@ -33,7 +33,15 @@ img{
   }
 
   iframe {
-    width: 90%;
+    width: 95%;
     height: 90%;
   }
+}
+.qrcode{
+  height: 25%;
+  width: 25%;
+  margin-left: 35%;
+}
+.qrd{
+  text-align: left;
 }
