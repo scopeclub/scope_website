@@ -29,3 +29,8 @@ iframe {
     height: 90%;
   }
 }
+.qrcode{
+  height: 25%;
+  width: 25%;
+  margin: auto;
+}
