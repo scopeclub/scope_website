@@ -8,7 +8,7 @@ function AppFiesta() {
       <div className="event">
         <h1>App Fiesta</h1>
         <p>Bootcamp + Hackathon</p>
-        <p>
+        <p class='qrd'>
           Scan here to get ready with your team and take part in
           the APP-FIESTA.<br></br>
           Note:Please make sure to note the transaction id before
@@ -28,8 +28,8 @@ function AppFiesta() {
       <iframe
         title="AppFiesta"
         src="https://lu.ma/embed-checkout/evt-eZEXm3GQlkBopdT"
-        width="600"
-        height="450"
+        width="1000"
+        height="500"
         frameborder="0"
         allowfullscreen=""
         aria-hidden="false"
