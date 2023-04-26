@@ -17,23 +17,57 @@
 }
 
 .eve-content > h2 {
-  padding-bottom: 1rem;
-  font-weight: 200;
+  padding-bottom: 2rem;
+  font-weight: 300;
 }
 
 .eve-content > h3 {
   font-family: "Arial Black", Gadget, sans-serif;
   text-transform: uppercase;
-  padding-top: 12px;
+  padding-top: 30px;
+  color: #ffe066;
 }
 
-.eve-content > h4 {
-  font-weight: 300;
+:root {
+  --color-1: #fff;
+  --color-2: #fbbc05;
+  --color-3: #ec4032;
+  --color-4: #33a952;
+  --color-5: #4086f5;
 }
 
 .event > h1 {
-  padding-bottom: 20px;
+  font-family: "Exo", sans-serif;
+  font-size: 3rem;
+  font-weight: 900;
+
+  width: min-content;
+  text-transform: uppercase;
+  background: linear-gradient(
+    219deg,
+    var(--color-1) 19%,
+    transparent 19%,
+    transparent 20%,
+    var(--color-2) 20%,
+    var(--color-2) 39%,
+    transparent 39%,
+    transparent 40%,
+    var(--color-3) 40%,
+    var(--color-3) 59%,
+    transparent 59%,
+    transparent 60%,
+    var(--color-4) 60%,
+    var(--color-4) 79%,
+    transparent 79%,
+    transparent 80%,
+    var(--color-5) 80%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  padding-bottom: 30px;
 }
+
 #alogo {
   width: 250px;
   height: 200px;
@@ -73,8 +107,8 @@ iframe {
   .AppFiesta {
     display: flex;
     flex-direction: column;
-    height: 190vh ;
-
+    min-height: 200vh;
+    padding-bottom: 100px;
   }
   .event {
     text-align: center;
@@ -82,17 +116,16 @@ iframe {
     padding-bottom: 150px;
   }
   .event > h1 {
+    width: 100%;
     padding-bottom: 20px;
   }
   .iframe-container {
     width: 90%;
-  
-    
   }
 
-  iframe{
+  iframe {
     width: 100%;
-  height: 100%;
+    height: 100%;
   }
 
   .eve-content > h2 {
@@ -105,4 +138,62 @@ iframe {
 .qr {
   height: 100px;
   width: 100px;
+}
+
+/*table */
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  color: white;
+  
+
+}
+
+th,
+td {
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #A5B4FC;
+}
+
+th {
+  font-size: 1.2em;
+  color: #A5B4FC;
+}
+
+td {
+  font-size: 1em;
+}
+
+@media screen and (max-width: 680px) {
+  .table-container {
+    display: none;
+  }
+  .responsive-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    width: 80%;
+    margin: auto;
+  }
+  .responsive-container div {
+    border: solid #A5B4FC 2px;;
+    margin-bottom: 20px;
+  }
+  h2 {
+    font-size: 1em;
+    
+  }
+  h1{
+    font-size: 1em;
+    color: #A5B4FC;
+  }
+}
+
+@media screen and (min-width: 680px) {
+  .responsive-container {
+    display: none;
+  }
 }

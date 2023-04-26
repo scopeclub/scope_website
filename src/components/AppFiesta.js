@@ -14,9 +14,40 @@ function AppFiesta() {
             Scan here to get ready with your team
             <br /> and take part in APPFIESTA!
           </h2>
-          <h4>Team size - Amount</h4>
-          <h4> 3 - Rs.1110/-</h4>
-          <h4> 4 - Rs.1480/-</h4>
+          <div class="table-container">
+            <table>
+              <thead>
+                <tr>
+                  <th>Team Size</th>
+                  <th>Amount</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>3</td>
+                  <td>Rs 1110/-</td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>Rs 1480/-</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="responsive-container">
+            <div>
+              <h1>Team Size</h1>
+              <h2>3</h2>
+              <h1>Amount</h1>
+              <h2>Rs 1110/-</h2>
+            </div>
+            <div>
+              <h1>Team Size</h1>
+              <h2>4</h2>
+              <h1>Amount</h1>
+              <h2>Rs 1450/-</h2>
+            </div>
+          </div>
           <h3>
             Note: Please make sure to note
             <br /> the Transaction ID for filling the form.
