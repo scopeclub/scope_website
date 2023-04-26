@@ -88,7 +88,7 @@ export const t25 = [
     name: "Sai Tharun",
     position: "TECHNICAL",
     alt: "Tarun",
-    image: "Team/t25/",
+    image: "Team/t25/SAITHARUN.jpg",
     socials: {
       linkedin: "/",
       github: "/",
@@ -124,7 +124,7 @@ export const t25 = [
     name: "P Harshitha",
     position: "PROMOTIONS",
     alt: "P Harshitha",
-    image: "Team/t25/",
+    image: "Team/t25/HARSHITHA_P.jpg",
     socials: {
       linkedin: "/",
       github: "/",
@@ -160,7 +160,7 @@ export const t25 = [
     name: "Anvesh Sai",
     position: "WEBSITE HANDLER",
     alt: "Sai",
-    image: "Team/t25/",
+    image: "Team/t25/ANVESH_SAI.jpg",
     socials: {
       linkedin: "/",
       github: "/",
@@ -196,7 +196,7 @@ export const t25 = [
     name: "Janif",
     position: "Graphic Designer",
     alt: "Janif",
-    image: "/",
+    image: "Team/t25/JANIF.jpg",
     socials: {
       linkedin: "https://www.linkedin.com/in/shaik-janif-98b207264/",
       github: "/",
