@@ -45,7 +45,7 @@ function AppFiesta() {
               <h1>Team Size</h1>
               <h2>4</h2>
               <h1>Amount</h1>
-              <h2>Rs 1450/-</h2>
+              <h2>Rs 1480/-</h2>
             </div>
           </div>
           <h3>

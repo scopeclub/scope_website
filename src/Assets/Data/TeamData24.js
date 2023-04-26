@@ -65,10 +65,10 @@ export const t24 = [
     },
     {
       id: 5,
-      name: "BHARATH",
-      position: "HOSPITALITY",
+      name: "BHARATH REDDY",
+      position: "MEDIA",
       alt: "BHARATH",
-      image: "Team/t24/bharat.webp",
+      image: "Team/t24/BHARAT.jpg",
       socials: {
         linkedin: "",
         github: '',
@@ -159,6 +159,18 @@ export const t24 = [
       socials: {
         linkedin: "https://www.linkedin.com/in/ch-premchand/",
         github: 'https://github.com/ch-premchand',
+        instagram:'',
+      },
+    },
+    {
+      id: 13,
+      name: "Rahul Konda",
+      position: "Graphic Designer",
+      alt: "Rahul",
+      image: "Team/t24/KONDA RAHUL.jpg",
+      socials: {
+        linkedin: "https://www.linkedin.com/in/rahul-konda-7416b3225",
+        github: '',
         instagram:'',
       },
     },
