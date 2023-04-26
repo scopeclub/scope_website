@@ -14,22 +14,22 @@
   text-align: justify;
 }
 
-.eve-content {
-  padding-top: 1rem;
+.eve-content > p {
+  font-size: 1.12rem;
+  line-height: 1.55rem;
+  margin-top: 18px;
 }
 
 .eve-content > h2 {
-  padding-top: 1.5rem;
-  padding-bottom: 1rem;
   font-weight: 300;
 }
 
 .eve-content > h3 {
-  font-family: "Arial Black", Gadget, sans-serif;
   text-transform: uppercase;
- 
-  padding: auto;
-  padding-bottom: 20px;
+  display: inline-block;
+
+  padding-top: 10px;
+  padding-bottom: 30px;
   color: #ffe066;
 }
 
@@ -43,9 +43,8 @@
 
 .event > h1 {
   font-family: "Exo", sans-serif;
-  font-size: 3rem;
-  font-weight: 600;
-
+  font-size: 2.12rem;
+  font-weight: 900;
   width: min-content;
   text-transform: uppercase;
   background: linear-gradient(
@@ -70,7 +69,7 @@
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 
 #alogo {
@@ -95,7 +94,7 @@
   position: relative;
   overflow: hidden;
   width: 30%;
-  height: 80%;
+  height: 100%;
 }
 
 iframe {
@@ -110,22 +109,24 @@ iframe {
 
 @media screen and (max-width: 850px) {
   .AppFiesta {
+padding-top: 0;
     display: flex;
     flex-direction: column;
-    min-height: 200vh;
-   padding-top: 0;
+    
+    height: 250vh;
   }
   .event {
     text-align: center;
-    padding-top: 150px;
-    padding-bottom: 150px;
+    padding-top: 0;
+    padding-bottom: 110px;
   }
   .event > h1 {
     width: 100%;
-    padding-bottom: 20px;
+    
   }
   .iframe-container {
-    width: 90%;
+    width: 90vw;
+    height: 90vh;
   }
 
   iframe {
@@ -133,11 +134,10 @@ iframe {
     height: 100%;
   }
 
-  .eve-content > h2 {
-    font-size: 1.2rem;
-  }
   .eve-content > h3 {
     font-size: 1rem;
+    display: inline-block;
+    width: 80%;
   }
 }
 .qr {
@@ -145,26 +145,34 @@ iframe {
   width: 100px;
 }
 
+@media screen and (max-width: 390px) {
+  .AppFiesta{
+    padding-top: 100px;
+  }
+
+}
+
+
+
 /*table */
 
 table {
   border-collapse: collapse;
   width: 50%;
   color: white;
-  
-
 }
 
 th,
 td {
-  padding: 20px;
+  padding: 10px;
   text-align: center;
-  border: 1px solid #A5B4FC;
+  border: 1px solid #a5b4fc;
+  border-radius: 4px;
 }
 
 th {
   font-size: 1.2em;
-  color: #A5B4FC;
+  color: #a5b4fc;
 }
 
 td {
@@ -184,16 +192,16 @@ td {
     margin: auto;
   }
   .responsive-container div {
-    border: solid #A5B4FC 2px;;
+    border: solid #a5b4fc 2px;
+    border-radius: 4px;
     margin-bottom: 20px;
   }
-  h2 {
+  .responsive-container h2 {
     font-size: 1em;
-    
   }
-  h1{
+  .responsive-container h1 {
     font-size: 1em;
-    color: #A5B4FC;
+    color: #a5b4fc;
   }
 }
 

@@ -52,14 +52,14 @@ function AppFiesta() {
             </div>
           </div>
          
-          <h2>
+          <p>
             Scan here to get ready with your team
             <br /> and take part in APPFIESTA!
-          </h2>
-          <h2>
+          </p>
+          <p>
             Register now and stand a chance 
             <br /> to win prize money up to <b>Rs.15000/-</b>
-          </h2>
+          </p>
           <br/>
           <h3>
             Note: Please make sure to note
