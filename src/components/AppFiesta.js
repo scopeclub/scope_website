@@ -56,6 +56,11 @@ function AppFiesta() {
             Scan here to get ready with your team
             <br /> and take part in APPFIESTA!
           </h2>
+          <h2>
+            Register now and stand a chance 
+            <br /> to win price money up to Rs.15000/-
+          </h2>
+          <br/>
           <h3>
             Note: Please make sure to note
           <br /> the Transaction ID for filling the form.
