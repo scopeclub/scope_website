@@ -1,19 +1,22 @@
 import React from "react";
 import "./AppFiesta.css";
 import Qr from "../Assets/qrcode.jpg";
+import { motion } from "framer-motion";
 
 function AppFiesta() {
   return (
-    <div className="AppFiesta">
+    <motion.div className="AppFiesta"
+    initial={{ y: 1, scale: 1, opacity: 0 }}
+      animate={{
+        y: "20px",
+        opacity: 1,
+      }}
+      transition={{ duration: 0.5 }}>
       <div className="event">
-        <h1>APPFIESTA</h1>
-        <img src={Qr} alt="qr" id="qr" />
-        <p>UPI Phone Number: 9603166060</p>
+        <h1>#APPFIESTA</h1>
+
         <div className="eve-content">
-          <h2>
-            Scan here to get ready with your team
-            <br /> and take part in APPFIESTA!
-          </h2>
+
           <div class="table-container">
             <table>
               <thead>
@@ -48,11 +51,18 @@ function AppFiesta() {
               <h2>Rs 1450/-</h2>
             </div>
           </div>
+         
+          <h2>
+            Scan here to get ready with your team
+            <br /> and take part in APPFIESTA!
+          </h2>
           <h3>
             Note: Please make sure to note
-            <br /> the Transaction ID for filling the form.
+          <br /> the Transaction ID for filling the form.
           </h3>
         </div>
+        <img src={Qr} alt="qr" id="qr" />
+        <p>UPI Phone Number: 9603166060</p>
       </div>
       <div className="iframe-container">
         <iframe
@@ -64,7 +74,7 @@ function AppFiesta() {
           tabindex="0"
         ></iframe>
       </div>
-    </div>
+    </motion.div>
   );
 }
 
