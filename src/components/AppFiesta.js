@@ -58,7 +58,7 @@ function AppFiesta() {
           </h2>
           <h2>
             Register now and stand a chance 
-            <br /> to win prize money up to Rs.15000/-
+            <br /> to win prize money up to <b>Rs.15000/-</b>
           </h2>
           <br/>
           <h3>
