@@ -4,6 +4,7 @@ import ed from "../../Assets/Data/EventData";
 import { useState } from "react";
 import { Grid } from "@mui/material";
 import { motion, AnimatePresence } from "framer-motion";
+import { Helmet } from "react-helmet";
 
 function Events() {
   const [event, setEvent] = useState(ed);
@@ -24,6 +25,9 @@ function Events() {
       }}
       transition={{ duration: 0.5 }}
     >
+      <Helmet>
+        <title>Events</title>
+      </Helmet>
       <div className="events-h">
         <h3 class="animate-charcter">Our Events</h3>
       </div>

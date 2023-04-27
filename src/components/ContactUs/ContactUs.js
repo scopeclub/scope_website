@@ -1,5 +1,6 @@
 import "./ContactUs.css";
 import { motion } from "framer-motion";
+import { Helmet } from "react-helmet";
 
 function ContactUs() {
   return (
@@ -13,6 +14,9 @@ function ContactUs() {
       transition={{ duration: 0.5 }}
       
     >
+      <Helmet>
+        <title>Contact Us</title>
+      </Helmet>
       <h1 className="c-head">
         Interested? <br />
         Let's Talk!

@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import Header from "./Homecomp/Header";
 import Aboutus from "./Homecomp/Aboutus";
 import Wdwd from "./Homecomp/Wdwd";
+import { Helmet } from "react-helmet";
 
 function Home() {
   return (
@@ -14,6 +15,9 @@ function Home() {
       }}
       transition={{ duration: 0.5 }}
     >
+      <Helmet>
+        <title>Home - SCOPE CLUB</title>
+      </Helmet>
       <Header />
       <div className="aboutus">
         <Aboutus />

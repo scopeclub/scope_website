@@ -1,6 +1,7 @@
 import "./Gallery.css";
 import gallerydata from "../../Assets/Data/GalleryData.json";
 import { motion } from "framer-motion";
+import { Helmet } from "react-helmet";
 
 function Gallery() {
   return (
@@ -13,6 +14,9 @@ function Gallery() {
       }}
       transition={{ duration: 0.5 }}
     >
+      <Helmet>
+        <title>Gallery</title>
+      </Helmet>
       <div class="container">
         <h1 class="titlee">Glimpses!</h1>
 

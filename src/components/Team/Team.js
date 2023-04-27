@@ -6,6 +6,7 @@ import { t24 } from "../../Assets/Data/TeamData24";
 import { t25 } from "../../Assets/Data/TeamData25";
 import TeamCard from "./TeamCard";
 import { motion } from "framer-motion";
+import { Helmet } from "react-helmet";
 
 
 function Team() {
@@ -20,6 +21,9 @@ function Team() {
       transition={{ duration: 0.5 }}
      
     >
+      <Helmet>
+        <title>Team</title>
+      </Helmet>
       <div className="head">
         <h1 className="team-h">Meet the Team!</h1>
         <h3 className="team-q">
