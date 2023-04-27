@@ -139,6 +139,12 @@
     font-size: 1.5rem;
   }
 
+  .headerr .text--glitch{
+    display: inline-block;
+    width: 90%;
+
+  }
+
   .blob {
     height: calc(0.4 * var(--blob-size));
   }
@@ -163,6 +169,7 @@
   }
 
   .headerr .text--glitch{
-    font-size: 4rem;;
+    font-size: 4rem;
+    
   }
 }
