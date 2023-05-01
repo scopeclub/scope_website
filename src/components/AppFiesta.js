@@ -14,7 +14,7 @@ function AppFiesta() {
       <div className="event">
         <h1>#APPFIESTA</h1>
       </div>
-      <div className="iframe-container">
+      <div className="iframe-container"> 
         <iframe
           title="AppFiesta"
           src="https://embed.lottiefiles.com/animation/96375"

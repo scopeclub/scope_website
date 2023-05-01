@@ -1,6 +1,5 @@
 .AppFiesta {
-  padding-top: 100px;
-  padding-bottom: 100px;
+ 
   width: 100%;
   height: 100vh;
   display: flex;
@@ -10,27 +9,9 @@
 }
 
 .event {
-  padding: 0;
-  text-align: justify;
-}
-
-.eve-content > p {
-  font-size: 1.12rem;
-  line-height: 1.55rem;
-  margin-top: 18px;
-}
-
-.eve-content > h2 {
-  font-weight: 300;
-}
-
-.eve-content > h3 {
-  text-transform: uppercase;
-  display: inline-block;
-
-  padding-top: 10px;
-  padding-bottom: 30px;
-  color: #ffe066;
+ 
+  display: flex;
+  flex-direction: row;
 }
 
 :root {
@@ -69,18 +50,9 @@
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
-  padding-bottom: 20px;
 }
 
-#alogo {
-  width: 250px;
-  height: 200px;
-}
 
-#qr {
-  width: 200px;
-  height: 200px;
-}
 
 .event > img {
   width: 20%;
@@ -109,20 +81,16 @@ iframe {
 
 @media screen and (max-width: 850px) {
   .AppFiesta {
-padding-top: 0;
     display: flex;
     flex-direction: column;
-    
-    height: 250vh;
+
+    height: 200vh;
   }
   .event {
     text-align: center;
-    padding-top: 0;
-    padding-bottom: 110px;
   }
   .event > h1 {
     width: 100%;
-    
   }
   .iframe-container {
     width: 90vw;
@@ -134,23 +102,9 @@ padding-top: 0;
     height: 100%;
   }
 
-  .eve-content > h3 {
-    font-size: 1rem;
-    display: inline-block;
-    width: 80%;
-  }
-}
-.qr {
-  height: 100px;
-  width: 100px;
+  
 }
 
-@media screen and (max-width: 390px) {
-  .AppFiesta{
-    padding-top: 100px;
-  }
-
-}
 
 
 
