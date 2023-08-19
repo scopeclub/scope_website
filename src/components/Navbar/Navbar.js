@@ -51,7 +51,7 @@ function Navbar() {
           </Link>
         </li>
         <button className="button-64">
-          <span className="text">Join Us</span>
+          <a href="https://chat.whatsapp.com/DV70fv5qBHRGHMb77nw0pi" >Join US</a>
         </button>
       </ul>
 

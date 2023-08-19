@@ -12,7 +12,7 @@
     {
       "id": 2,
       "title": "GameHub 2.O",
-      "date": "11-APRIL 2022",
+      "date": "11-APR 2022",
       "time": "9:30 AM",
       "venue": "MLRIT",
       "image": "Events/GAMEHUB_2.webp",
@@ -42,7 +42,7 @@
     {
       "id": 5,
       "title": "GameHub",
-      "date": "October-2 2020",
+      "date": "12-DEC 2020",
       "time": "5:30 PM",
       "venue": "MLRIT",
       "image": "Events/GAMEHUB_1.webp",
@@ -52,7 +52,7 @@
     {
       "id": 6,
       "title": "Codewars",
-      "date": "October-2 2019",
+      "date": "12-OCT 2020",
       "time": "9:30 AM",
       "venue": "MLRIT",
       "image": "Events/CODEWARS.webp",
@@ -62,11 +62,11 @@
     {
       "id": 7,
       "title": "AppFiesta",
-      "date": "MAY 2023",
-      "time": "",
+      "date": "4-MAY 2023",
+      "time": "9:30 AM",
       "venue": "MLRIT",
-      "image": "https://th.bing.com/th/id/OIP.Hdfh71E6Im58z9jFKpjYXgHaEr?pid=ImgDet&w=600&h=379&rs=1",
-      "description": "Upcoming Hackathon",
-      "status": "1"
+      "image": "Events/Appfiesta.jpeg",
+      "description": "Hackathon  on Mobile Application Development.",
+      "status": "0"
     }
   ]

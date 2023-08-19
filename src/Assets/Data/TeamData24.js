@@ -2,7 +2,7 @@ export const t24 = [
     {
       id: 0,
       name: "YOGGI HARSHA",
-      position: "TREASURER",
+      position: "PRESIDENT",
       alt: "YOGGI HARSHA",
       image: "Team/t24/yoggi.webp",
       socials: {
@@ -14,13 +14,13 @@ export const t24 = [
     },
     {
       id: 1,
-      name: "VENKAT GANESH",
-      position: "MEDIA",
-      alt: "VENKAT GANESH",
-      image: "Team/t24/ganesh.webp",
+      name: "SRESHTA",
+      position: "VICE PRESIDENT",
+      alt: "SRESHTA",
+      image: "Team/t24/shreshta.webp",
       socials: {
-        linkedin: "https://www.linkedin.com/in/ganesh-kallagunta-873891204/",
-        github: '',
+        linkedin: "https://www.linkedin.com/in/sreshtamannam0202/",
+        github: 'https://github.com/SreshtaMannam',
         instagram:'',
       },
       
@@ -53,13 +53,13 @@ export const t24 = [
     },
     {
       id: 4,
-      name: "SRESHTA",
-      position: "CONTENT WRITER",
-      alt: "SRESHTA",
-      image: "Team/t24/shreshta.webp",
+      name: "VENKAT GANESH",
+      position: "MEDIA",
+      alt: "VENKAT GANESH",
+      image: "Team/t24/ganesh.webp",
       socials: {
-        linkedin: "https://www.linkedin.com/in/sreshtamannam0202/",
-        github: 'https://github.com/SreshtaMannam',
+        linkedin: "https://www.linkedin.com/in/ganesh-kallagunta-873891204/",
+        github: '',
         instagram:'',
       },
     },
@@ -168,6 +168,30 @@ export const t24 = [
       position: "Graphic Designer",
       alt: "Rahul",
       image: "Team/t24/KONDA RAHUL.jpg",
+      socials: {
+        linkedin: "https://www.linkedin.com/in/rahul-konda-7416b3225",
+        github: '',
+        instagram:'',
+      },
+    },
+    {
+      id: 14,
+      name: "Divya",
+      position: "Hospitality",
+      alt: "Divya",
+      image: "Team/t24/DIVYA.jpg",
+      socials: {
+        linkedin: "https://www.linkedin.com/in/rahul-konda-7416b3225",
+        github: '',
+        instagram:'',
+      },
+    },
+    {
+      id: 15,
+      name: "Samhitha",
+      position: "Hospitality",
+      alt: "Samhitha",
+      image: "Team/t24/SAMHITHA.jpg",
       socials: {
         linkedin: "https://www.linkedin.com/in/rahul-konda-7416b3225",
         github: '',
