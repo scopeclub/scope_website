@@ -11,18 +11,6 @@ export const bod = [
       instagram:'',
     },
   },
-  {
-    id: 1,
-    name: "G. SUNEEL",
-    position: "FACULTY COORDINATOR",
-    alt: "rajsekhar sir",
-    image: "Team/Bd/sunil_sir.webp",
-    socials: {
-      linkedin: "",
-      github: '',
-      instagram:'',
-    },
-  },
 ];
 
 
