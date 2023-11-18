@@ -1,6 +1,8 @@
 import "./ContactUs.css";
+
 import { motion } from "framer-motion";
 import { Helmet } from "react-helmet";
+import Form from "./Forms";
 
 function ContactUs() {
   return (
@@ -30,36 +32,8 @@ function ContactUs() {
           </a>
         </span>
       </p>
-      <div className="container">
-        <form action="#">
-          <div class="form-row">
-            <div class="input-data">
-              <input type="text" name="name" required />
-              <div class="underline"></div>
-              <label for="">Your Name</label>
-            </div>
-          </div>
-          <div class="form-row">
-            <div class="input-data">
-              <input type="text" name="mail"required />
-              <div class="underline"></div>
-              <label for="">Your Email Address</label>
-            </div>
-          </div>
-          <div class="form-row">
-            <div class="input-data textarea">
-              <textarea rows="8" cols="80" name="message" required></textarea>
-              <br />
-              <div class="underline"></div>
-              <label for="">Write your message</label>
-              <br />
-            </div>
-          </div>
-          <a href="/contact" class="btn41-43 btn-43">
-            Submit
-          </a>
-        </form>
-      </div>
+        <Form />
+      
     </motion.div>
   );
 }
