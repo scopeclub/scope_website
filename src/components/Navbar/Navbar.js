@@ -46,6 +46,11 @@ function Navbar() {
           </Link>
         </li>
         <li onClick={handleClick}>
+          <Link style={{ textDecoration: "none" }} to="/resources">
+            Resources
+          </Link>
+        </li>
+        <li onClick={handleClick}>
           <Link style={{ textDecoration: "none" }} to="/contact">
             Contact Us
           </Link>

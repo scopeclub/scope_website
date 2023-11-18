@@ -1,0 +1,19 @@
+.container {
+    max-width: 95%;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 90px;
+  }
+  
+  .container .titlee {
+    font-size: 4.2rem;
+    color: #fff;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    text-align: center;
+    padding-bottom: 18px;
+  }
+  
+  
