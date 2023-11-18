@@ -17,10 +17,11 @@ function Resources() {
         <title>Growth Factor</title>
       </Helmet>
       <div class="container">
-        <h1 class="titlee">Gd To go!</h1>
+        <h1 class="titlee">Gd To!</h1>
 
         
       </div>
+
     </motion.div>
   );
 }
