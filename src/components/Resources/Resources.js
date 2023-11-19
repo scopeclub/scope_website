@@ -1,7 +1,7 @@
 import "./Resources.css";
 import { motion } from "framer-motion";
 import { Helmet } from "react-helmet";
-import "./Resources/image"
+
 
 function Resources() {
   return (
