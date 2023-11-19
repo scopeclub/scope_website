@@ -20,7 +20,7 @@ function Resources() {
     
 <div class="container">
 
-    <h1 class="heading">Our Courses</h1>
+    <h1 class="heading">Our Resources</h1>
 
     <div class="box-container">
 
