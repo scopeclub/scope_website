@@ -1,18 +1,30 @@
 export const t25 = [
     {
       id: 0,
-      name: "Sahi ram kiran",
-      position: "VIDEO EDITOR",
-      alt: "Sane kiran kumar reddy ",
-      image: "Team/t25/ SAHI_RAM_KIRAN.jpeg",
+      name: "Gadde Madhukar Reddy",
+      position: "PRESIDENT",
+      alt: "/",
+      image: "Team/t25/GADDE_MADHUKAR.jpg",
       socials: {
-        linkedin: "/",
-        github: '/',
-        instagram:'/',
+        linkedin: "https://www.linkedin.com/in/gmr-b77bb1221/",
+        github: "https://github.com/GMRMADHU12",
+        instagram:"https://www.instagram.com/madhukargadde/",
       },
     },
     {
       id: 1,
+      name: "Gayatri Viswanadha",
+      position: "VICE PRESIDENT",
+      alt: "gayatri",
+      image: "Team/t25/GAYATHRI_V.jpg",
+      socials: {
+        linkedin: "https://www.linkedin.com/in/gayathri-viswanadha-086b68270/",
+        github: "https://github.com/Gayathrio4",
+        instagram:"https://www.instagram.com/viswag04/?igshid=ZDdkNTZiNTM%3D",
+      },
+    },
+    {
+      id: 2,
       name: "G Sravani Reddy ",
       position: "PROMOTIONS",
       alt: "G Sravani Reddy ",
@@ -24,7 +36,7 @@ export const t25 = [
       },
     },
     {
-      id: 2,
+      id: 3,
       name: "T. Karthikeya",
       position: "WEBSITE HANDLER",
       alt: "T. Karthikeya",
@@ -36,7 +48,7 @@ export const t25 = [
       },
     },
     {
-      id: 3,
+      id: 4,
       name: "M.Jayasree",
       position: "TECHNICAL",
       alt: "M.Jayasree",
@@ -48,7 +60,7 @@ export const t25 = [
       },
     },
     {
-      id: 4,
+      id: 5,
       name: "M.Gayathri Chowdary ",
       position: "HOSPITALITY",
       alt: "M.Gayathri Chowdary ",
@@ -60,7 +72,7 @@ export const t25 = [
       },
     },
     {
-      id: 5,
+      id: 6,
       name: "N SUNIL",
       position: "LEGALS",
       alt: "N SUNIL",
@@ -72,7 +84,7 @@ export const t25 = [
       },
     },
   {
-    id: 6,
+    id: 7,
     name: "Sahana",
     position: "SOCIAL MEDIA HANDLER",
     alt: "Sahana",
@@ -84,7 +96,7 @@ export const t25 = [
     },
   },
   {
-    id: 7,
+    id: 8,
     name: "Sai Tharun",
     position: "TECHNICAL",
     alt: "Tarun",
@@ -96,7 +108,7 @@ export const t25 = [
     },
   },
   {
-    id: 8,
+    id: 9,
     name: "Snehith",
     position: "CONTENT WRITER",
     alt: "Snehith",
@@ -108,7 +120,7 @@ export const t25 = [
     },
   },
   {
-    id: 9,
+    id: 10,
     name: "Sirisha",
     position: "LEGALS",
     alt: "Sirisha",
@@ -120,7 +132,7 @@ export const t25 = [
     },
   },
   {
-    id: 10,
+    id: 11,
     name: "P Harshitha",
     position: "PROMOTIONS",
     alt: "P Harshitha",
@@ -132,29 +144,18 @@ export const t25 = [
     },
   },
   {
-    id: 11,
-    name: "Diwakar",
-    position: "TECHNICAL",
-    alt: "Diwakar",
-    image: "Team/t25/DIWAKAR_1.JPG",
+    id: 12,
+    name: "Sahi ram kiran",
+    position: "VIDEO EDITOR",
+    alt: "Sane kiran kumar reddy ",
+    image: "Team/t25/ SAHI_RAM_KIRAN.jpeg",
     socials: {
       linkedin: "/",
-      github: "/",
-      instagram:"/",
+      github: '/',
+      instagram:'/',
     },
   },
-  {
-    id: 12,
-    name: "Gayatri Viswanadha",
-    position: "CONTENT WRITING",
-    alt: "gayatri",
-    image: "Team/t25/GAYATHRI_V.jpg",
-    socials: {
-      linkedin: "https://www.linkedin.com/in/gayathri-viswanadha-086b68270/",
-      github: "https://github.com/Gayathrio4",
-      instagram:"https://www.instagram.com/viswag04/?igshid=ZDdkNTZiNTM%3D",
-    },
-  },
+
   {
     id: 13,
     name: "Anvesh Sai",
@@ -229,18 +230,6 @@ export const t25 = [
   },
   {
     id: 19,
-    name: "Madhukar Reddy Gadde",
-    position: "Technical",
-    alt: "/",
-    image: "Team/t25/GADDE_MADHUKAR.jpg",
-    socials: {
-      linkedin: "https://www.linkedin.com/in/gmr-b77bb1221/",
-      github: "https://github.com/GMRMADHU12",
-      instagram:"https://www.instagram.com/madhukargadde/",
-    },
-  },
-  {
-    id: 20,
     name: "Sushmitha Vadagave",
     position: "Promotions",
     alt: "/",
