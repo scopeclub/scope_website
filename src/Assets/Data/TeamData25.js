@@ -182,14 +182,14 @@ export const t25 = [
   },
   {
     id: 15,
-    name: "Dinesh",
-    position: "CONTENT WRITER",
-    alt: "Dinesh",
-    image: "Team/t25/DINESH.png",
+    name: "Nuthan Kalyan",
+    position: "Technical",
+    alt: "/",
+    image: "Team/t25/Nuthan.jpg",
     socials: {
-      linkedin: "https://www.linkedin.com/in/dinesh-nalam17/",
-      github: "https://github.com/dineshnalam",
-      instagram:"https://www.instagram.com/dineshnalam17/",
+      linkedin: "/",
+      github: "/",
+      instagram:"/",
     },
   },
   {
@@ -240,6 +240,9 @@ export const t25 = [
       instagram:"https://instagram.com/sush_mitha01?igshid=ZDdkNTZiNTM=",
     },
   },
+
+
+
   ];
   
   
