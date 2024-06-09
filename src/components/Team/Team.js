@@ -4,6 +4,7 @@ import { t22 } from "../../Assets/Data/TeamData22";
 import { t23 } from "../../Assets/Data/TeamData23";
 import { t24 } from "../../Assets/Data/TeamData24";
 import { t25 } from "../../Assets/Data/TeamData25";
+import { t26 } from "../../Assets/Data/TeamData26";
 import TeamCard from "./TeamCard";
 import { motion } from "framer-motion";
 import { Helmet } from "react-helmet";
@@ -35,6 +36,20 @@ function Team() {
 
         <div className="bodd">
           {bod.map((t) => (
+            <TeamCard
+              key={t.id}
+              image={t.image}
+              name={t.name}
+              position={t.position}
+              git={t.socials.github}
+              insta={t.socials.instagram}
+              li={t.socials.linkedin}
+            />
+          ))}
+        </div>
+        <h2 className="team-p">Team 2k26</h2>
+        <div className="bod">
+          {t26.map((t) => (
             <TeamCard
               key={t.id}
               image={t.image}
