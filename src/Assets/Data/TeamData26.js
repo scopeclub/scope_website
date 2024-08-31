@@ -48,7 +48,7 @@ export const t26 = [
     name: "Dhanush Reddy",
     position: "Photography",
     alt: "Dhanush Reddy",
-    image: "Team/t26/dhanush.jpeg",
+    image: "Team/t26/dhanush.jpg",
     socials: {
       github: "https://github.com/",
       instagram: "https://www.instagram.com/invites/contact/?i=fxgxwtjkclqy&utm_content=r6awvgg",
