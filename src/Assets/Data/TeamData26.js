@@ -38,7 +38,7 @@ export const t26 = [
     name: "Tej Pavan",
     position: "Technical Member",
     alt: "Tej Pavan",
-    image: "Team/t26/TEJ_PAVAN.jpeg",
+    image: "Team/t26/PAVAN.jpeg",
     socials: {
       instagram: "tej_pavan_",
     },
@@ -48,7 +48,7 @@ export const t26 = [
     name: "Dhanush Reddy",
     position: "Photography",
     alt: "Dhanush Reddy",
-    image: "Team/t26/DHANUSH_REDDY.jpeg",
+    image: "Team/t26/dhanush.jpeg",
     socials: {
       github: "https://github.com/",
       instagram: "https://www.instagram.com/invites/contact/?i=fxgxwtjkclqy&utm_content=r6awvgg",
@@ -94,7 +94,7 @@ export const t26 = [
     name: "K. Joseph",
     position: "Graphic Designer",
     alt: "K. Joseph",
-    image: "Team/t26/K_JOSEPH.jpeg",
+    image: "Team/t26/Jason.jpeg",
     socials: {
       github: "https://github.com/jasonsama44",
       instagram: "jason_sama_",
@@ -185,18 +185,18 @@ export const t26 = [
   },
 
 
+  // {
+  //   id: 16,
+  //   name: "Santhosh Kumar Katroth",
+  //   position: "Promoter",
+  //   alt: "Santhosh Kumar Katroth",
+  //   image: "Team/t26/santhosh.jpg",
+  //   socials: {
+  //     instagram: "santhoshkumarkatroth",
+  //   },
+  // },
   {
     id: 16,
-    name: "Santhosh Kumar Katroth",
-    position: "Promoter",
-    alt: "Santhosh Kumar Katroth",
-    image: "Team/t26/santhosh.jpg",
-    socials: {
-      instagram: "santhoshkumarkatroth",
-    },
-  },
-  {
-    id: 17,
     name: "Shesha Shayana Reddy",
     position: "Technical Member",
     alt: "Shesha Shayana Reddy",
@@ -208,7 +208,7 @@ export const t26 = [
     },
   },
   {
-    id: 18,
+    id: 17,
     name: "Sravya Lingisetty",
     position: "Promoter",
     alt: "Sravya Lingisetty",
@@ -218,7 +218,7 @@ export const t26 = [
     },
   },
   {
-    id: 19,
+    id: 18,
     name: "Sumaiah",
     position: "Graphic Designer",
     alt: "Sumaiah",
